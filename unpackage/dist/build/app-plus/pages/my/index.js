@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"bg.",[1],"data-v-2d0f7de6 { position: relative; }\n.",[1],"img.",[1],"data-v-2d0f7de6 { position: absolute; top: ",[0,150],"; left: calc(50% - 30px); }\n.",[1],"name.",[1],"data-v-2d0f7de6 { position: absolute; top: 150px; color: blue; left: calc(50% - 15px); font-size: 16px; font-weight: 600; }\n",],undefined,{path:"./pages/my/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/index.wxml') } }));

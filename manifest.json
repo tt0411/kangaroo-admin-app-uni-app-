@@ -1,5 +1,5 @@
 {
-    "name" : "kangaroo-admin-app",
+    "name" : "袋鼠空间管理端",
     "appid" : "__UNI__3F10382",
     "description" : "",
     "versionName" : "kangaroo-admin-app 0.0.1",
@@ -40,7 +40,12 @@
             },
             "ios" : {},
             /* ios打包配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {},
+            "icons" : {
+                "android" : {
+                    "hdpi" : ""
+                }
+            }
         }
     },
     /* SDK配置 */

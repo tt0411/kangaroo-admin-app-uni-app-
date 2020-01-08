@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "todo": "/pages/todo/index",
+    "data": "/pages/data/index",
+    "my": "/pages/my/index"
+  }
+}

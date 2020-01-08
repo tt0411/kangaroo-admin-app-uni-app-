@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"page.",[1],"data-v-65e8d3a6 { height: 100vh; }\n.",[1],"page .",[1],"zw.",[1],"data-v-65e8d3a6 { width: 100%; height: ",[0,30],"; background-color: #F5F5F5; }\n",],undefined,{path:"./pages/data/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/data/index.wxml') } }));

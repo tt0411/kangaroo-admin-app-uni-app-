@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/basics/home"],{"189b":function(n,e,t){},"1af9":function(n,e,t){"use strict";var o,c=function(){var n=this,e=n.$createElement;n._self._c},a=[];t.d(e,"b",function(){return c}),t.d(e,"c",function(){return a}),t.d(e,"a",function(){return o})},"276e":function(n,e,t){"use strict";(function(n){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var t={name:"basics",data:function(){return{elements:[{title:"布局",name:"layout",color:"cyan",cuIcon:"newsfill"},{title:"背景",name:"background",color:"blue",cuIcon:"colorlens"},{title:"文本",name:"text",color:"purple",cuIcon:"font"},{title:"图标 ",name:"icon",color:"mauve",cuIcon:"cuIcon"},{title:"按钮",name:"button",color:"pink",cuIcon:"btn"},{title:"标签",name:"tag",color:"brown",cuIcon:"tagfill"},{title:"头像",name:"avatar",color:"red",cuIcon:"myfill"},{title:"进度条",name:"progress",color:"orange",cuIcon:"icloading"},{title:"边框阴影",name:"shadow",color:"olive",cuIcon:"copy"},{title:"加载",name:"loading",color:"green",cuIcon:"loading2"}]}},onShow:function(){console.log(n("success"," at pages\\basics\\home.vue:88"))}};e.default=t}).call(this,t("0de9")["default"])},"2a9f":function(n,e,t){"use strict";t.r(e);var o=t("1af9"),c=t("30de");for(var a in c)"default"!==a&&function(n){t.d(e,n,function(){return c[n]})}(a);t("c86f");var l,u=t("f0c5"),r=Object(u["a"])(c["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],l);e["default"]=r.exports},"30de":function(n,e,t){"use strict";t.r(e);var o=t("276e"),c=t.n(o);for(var a in o)"default"!==a&&function(n){t.d(e,n,function(){return o[n]})}(a);e["default"]=c.a},c86f:function(n,e,t){"use strict";var o=t("189b"),c=t.n(o);c.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/basics/home-create-component',
+    {
+        'pages/basics/home-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("2a9f"))
+        })
+    },
+    [['pages/basics/home-create-component']]
+]);

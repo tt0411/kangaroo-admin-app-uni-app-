@@ -117,7 +117,7 @@
 			"allowsBounceVertical": "NO"
 		},
 		"navigationBarBackgroundColor": "#0081ff",
-		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationBarTitleText": "袋鼠空间管理端",
 		"navigationStyle": "custom",
 		"navigationBarTextStyle": "white"
 	},

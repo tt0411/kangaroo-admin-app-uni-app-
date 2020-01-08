@@ -1,0 +1,17 @@
+.bg.data-v-2d0f7de6 {
+  position: relative;
+}
+.img.data-v-2d0f7de6 {
+  position: absolute;
+  top: 150rpx;
+  left: calc(50% - 30px);
+}
+.name.data-v-2d0f7de6 {
+  position: absolute;
+  top: 150px;
+  color: blue;
+  left: calc(50% - 15px);
+  font-size: 16px;
+  font-weight: 600;
+}
+

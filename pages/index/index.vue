@@ -7,6 +7,7 @@
 			<view class="action" @click="NavChange" data-cur="todo">
 				<view class='cuIcon-cu-image'>
 					<text :class="PageCur=='todo'?'lg cuIcon-edit text-blue':'lg cuIcon-edit text-gray'"></text>
+					<view class="cu-tag badge">99</view>
 				</view>
 				<view :class="PageCur=='todo'?'text-blue':'text-gray'">待办</view>
 			</view>

@@ -14,7 +14,7 @@
 		data() {
 			return {
 				avatar: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg',
-				name: '管理员'
+				name: 'xxx'
 			}
 		}
 	}
@@ -33,7 +33,7 @@
 		position: absolute;
 		top: 150px;
         color: blue;
-		left: calc(50% - 25px);
+		left: calc(50% - 15px);
 		font-size: 16px;
 		font-weight: 600;
 	}

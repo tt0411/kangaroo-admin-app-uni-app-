@@ -1,0 +1,1 @@
+<view class="data-v-dca608e2"><scroll-view class="page data-v-dca608e2" scroll-y><cu-custom vue-id="1" bgColor="bg-gradual-blue" class="data-v-dca608e2" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content" class="data-v-dca608e2">数据分析</view></cu-custom></scroll-view><view class="cu-tabbar-height data-v-dca608e2"></view></view>
