@@ -1076,11 +1076,7 @@ function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-blue'])
-Z([3,'__l'])
-Z([1,true])
-Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([[7],[3,'poster']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
 }
 function gz$gwx_3(){
@@ -1092,11 +1088,6 @@ Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
-Z([3,'index'])
-Z([3,'item'])
-Z([[7],[3,'ColorList']])
-Z(z[5])
-Z([[2,'<'],[[7],[3,'index']],[1,12]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
@@ -1112,12 +1103,28 @@ Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'ColorList']])
 Z(z[5])
-Z([[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'white']])
+Z([[2,'<'],[[7],[3,'index']],[1,12]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'bg-gradual-blue'])
+Z([3,'__l'])
+Z([1,true])
+Z([3,'1'])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'ColorList']])
+Z(z[5])
+Z([[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'white']])
+})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
+}
+function gz$gwx_6(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
+__WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'bg-gradual-blue'])
 Z([3,'__l'])
@@ -1131,28 +1138,12 @@ Z([3,'item'])
 Z([[7],[3,'ColorList']])
 Z(z[7])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'white']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
-}
-function gz$gwx_6(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
-__WXML_GLOBAL__.ops_cached.$gwx_6=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
 function gz$gwx_7(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
 __WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-blue'])
-Z([3,'__l'])
-Z([1,true])
-Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
-Z([3,'index'])
-Z([3,'item'])
-Z([[7],[3,'cuIcon']])
-Z(z[5])
-Z([[6],[[7],[3,'item']],[3,'isShow']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
 }
 function gz$gwx_8(){
@@ -1164,9 +1155,11 @@ Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
-Z([[2,'=='],[[7],[3,'TabCur']],[1,0]])
-Z([[2,'=='],[[7],[3,'TabCur']],[1,1]])
-Z([[2,'=='],[[7],[3,'TabCur']],[1,2]])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'cuIcon']])
+Z(z[5])
+Z([[6],[[7],[3,'item']],[3,'isShow']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 function gz$gwx_9(){
@@ -1177,8 +1170,10 @@ Z([3,'bg-gradual-blue'])
 Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
-Z([[4],[[5],[[5],[[5],[1,'backText']],[1,'content']],[1,'right']]])
-Z([[7],[3,'loadModal']])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([[2,'=='],[[7],[3,'TabCur']],[1,0]])
+Z([[2,'=='],[[7],[3,'TabCur']],[1,1]])
+Z([[2,'=='],[[7],[3,'TabCur']],[1,2]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
 }
 function gz$gwx_10(){
@@ -1189,12 +1184,8 @@ Z([3,'bg-gradual-blue'])
 Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
-Z([3,'index'])
-Z([3,'item'])
-Z([[7],[3,'ColorList']])
-Z(z[5])
-Z([[2,'&&'],[[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'gray']],[[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'white']]])
+Z([[4],[[5],[[5],[[5],[1,'backText']],[1,'content']],[1,'right']]])
+Z([[7],[3,'loadModal']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
@@ -1206,11 +1197,27 @@ Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'ColorList']])
+Z(z[5])
+Z([[2,'&&'],[[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'gray']],[[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'white']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 function gz$gwx_12(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
 __WXML_GLOBAL__.ops_cached.$gwx_12=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'bg-gradual-blue'])
+Z([3,'__l'])
+Z([1,true])
+Z([3,'1'])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
+}
+function gz$gwx_13(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
+__WXML_GLOBAL__.ops_cached.$gwx_13=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'bg-gradual-blue'])
 Z([3,'__l'])
@@ -1233,29 +1240,17 @@ Z(z[7])
 Z(z[8])
 Z(z[6])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'name']],[1,'white']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
-}
-function gz$gwx_13(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
-__WXML_GLOBAL__.ops_cached.$gwx_13=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-blue'])
-Z([3,'__l'])
-Z([1,true])
-Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
 }
 function gz$gwx_14(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
 __WXML_GLOBAL__.ops_cached.$gwx_14=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-pink'])
+Z([3,'bg-gradual-blue'])
 Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
-Z([1,false])
 })(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
 }
 function gz$gwx_15(){
@@ -1267,6 +1262,7 @@ Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([1,false])
 })(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
 function gz$gwx_16(){
@@ -1289,18 +1285,29 @@ Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
-Z([[2,'<'],[[6],[[7],[3,'imgList']],[3,'length']],[1,4]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
 function gz$gwx_18(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
 __WXML_GLOBAL__.ops_cached.$gwx_18=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'bg-gradual-pink'])
+Z([3,'__l'])
+Z([1,true])
+Z([3,'1'])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([[2,'<'],[[6],[[7],[3,'imgList']],[3,'length']],[1,4]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
 }
 function gz$gwx_19(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
 __WXML_GLOBAL__.ops_cached.$gwx_19=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
+}
+function gz$gwx_20(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
+__WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[4],[[5],[[5],[1,'page']],[[2,'?:'],[[2,'!='],[[7],[3,'modalName']],[1,null]],[1,'show'],[1,'']]]])
 Z([[2,'=='],[[7],[3,'modalName']],[1,null]])
@@ -1316,11 +1323,11 @@ Z(z[7])
 Z([[2,'<'],[[7],[3,'index']],[[2,'*'],[[7],[3,'gridCol']],[1,2]]])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'badge']],[1,0]])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'badge']],[1,1]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
+})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
-function gz$gwx_20(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
-__WXML_GLOBAL__.ops_cached.$gwx_20=[];
+function gz$gwx_21(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
+__WXML_GLOBAL__.ops_cached.$gwx_21=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'bg-gradual-pink'])
 Z([3,'__l'])
@@ -1342,22 +1349,6 @@ Z([[4],[[5],[[5],[1,'cu-btn orange lg block']],[[2,'?:'],[[6],[[7],[3,'item']],[
 Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'ChooseCheckbox']],[[4],[[5],[1,'$event']]]]]]]]]]])
 Z([[6],[[7],[3,'item']],[3,'value']])
 Z([[6],[[7],[3,'item']],[3,'hot']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
-}
-function gz$gwx_21(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
-__WXML_GLOBAL__.ops_cached.$gwx_21=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-pink'])
-Z([3,'__l'])
-Z([1,true])
-Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
-Z([3,'index'])
-Z([3,'item'])
-Z([1,10])
-Z(z[5])
-Z([[2,'=='],[[7],[3,'index']],[[7],[3,'TabCur']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
 }
 function gz$gwx_22(){
@@ -1369,11 +1360,27 @@ Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([3,'index'])
+Z([3,'item'])
+Z([1,10])
+Z(z[5])
+Z([[2,'=='],[[7],[3,'index']],[[7],[3,'TabCur']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
 function gz$gwx_23(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
 __WXML_GLOBAL__.ops_cached.$gwx_23=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'bg-gradual-pink'])
+Z([3,'__l'])
+Z([1,true])
+Z([3,'1'])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
+}
+function gz$gwx_24(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
+__WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'bg-gradual-pink'])
 Z([3,'__l'])
@@ -1415,67 +1422,60 @@ Z(z[5])
 Z(z[25])
 Z(z[9])
 Z(z[10])
-})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
-}
-function gz$gwx_24(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
-__WXML_GLOBAL__.ops_cached.$gwx_24=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-pink'])
-Z([3,'__l'])
-Z([1,true])
-Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
 }
 function gz$gwx_25(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_25)return __WXML_GLOBAL__.ops_cached.$gwx_25
 __WXML_GLOBAL__.ops_cached.$gwx_25=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-blue'])
+Z([3,'bg-gradual-pink'])
 Z([3,'__l'])
-Z([3,'data-v-65e8d3a6'])
+Z([1,true])
 Z([3,'1'])
-Z([[4],[[5],[1,'content']]])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_25);return __WXML_GLOBAL__.ops_cached.$gwx_25
 }
 function gz$gwx_26(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_26)return __WXML_GLOBAL__.ops_cached.$gwx_26
 __WXML_GLOBAL__.ops_cached.$gwx_26=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[2,'=='],[[7],[3,'PageCur']],[1,'todo']])
+Z([3,'bg-gradual-blue'])
 Z([3,'__l'])
+Z([3,'data-v-d774aa20'])
 Z([3,'1'])
-Z([[2,'=='],[[7],[3,'PageCur']],[1,'data']])
-Z(z[1])
-Z([3,'2'])
-Z([[2,'=='],[[7],[3,'PageCur']],[1,'my']])
-Z(z[1])
-Z([3,'3'])
+Z([[4],[[5],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_26);return __WXML_GLOBAL__.ops_cached.$gwx_26
 }
 function gz$gwx_27(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_27)return __WXML_GLOBAL__.ops_cached.$gwx_27
 __WXML_GLOBAL__.ops_cached.$gwx_27=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'data-v-3cc65934'])
+Z([[2,'=='],[[7],[3,'PageCur']],[1,'todo']])
+Z([3,'__l'])
+Z(z[0])
+Z([3,'1'])
+Z([[2,'=='],[[7],[3,'PageCur']],[1,'data']])
+Z(z[2])
+Z(z[0])
+Z([3,'2'])
+Z([[2,'=='],[[7],[3,'PageCur']],[1,'my']])
+Z(z[2])
+Z(z[0])
+Z([3,'3'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_27);return __WXML_GLOBAL__.ops_cached.$gwx_27
 }
 function gz$gwx_28(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_28)return __WXML_GLOBAL__.ops_cached.$gwx_28
 __WXML_GLOBAL__.ops_cached.$gwx_28=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'https://image.weilanwl.com/color2.0/plugin/wdh2236.jpg'])
-Z([3,'__l'])
-Z([1,true])
-Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_28);return __WXML_GLOBAL__.ops_cached.$gwx_28
 }
 function gz$gwx_29(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_29)return __WXML_GLOBAL__.ops_cached.$gwx_29
 __WXML_GLOBAL__.ops_cached.$gwx_29=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-gradual-blue'])
+Z([3,'https://image.weilanwl.com/color2.0/plugin/wdh2236.jpg'])
 Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
@@ -1486,28 +1486,28 @@ function gz$gwx_30(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_30)return __WXML_GLOBAL__.ops_cached.$gwx_30
 __WXML_GLOBAL__.ops_cached.$gwx_30=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg'])
+Z([3,'bg-gradual-blue'])
 Z([3,'__l'])
+Z([1,true])
 Z([3,'1'])
-Z([[4],[[5],[1,'content']]])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_30);return __WXML_GLOBAL__.ops_cached.$gwx_30
 }
 function gz$gwx_31(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_31)return __WXML_GLOBAL__.ops_cached.$gwx_31
 __WXML_GLOBAL__.ops_cached.$gwx_31=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'https://image.weilanwl.com/color2.0/plugin/sylb2244.jpg'])
+Z([3,'https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg'])
 Z([3,'__l'])
-Z([1,true])
 Z([3,'1'])
-Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+Z([[4],[[5],[1,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_31);return __WXML_GLOBAL__.ops_cached.$gwx_31
 }
 function gz$gwx_32(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_32)return __WXML_GLOBAL__.ops_cached.$gwx_32
 __WXML_GLOBAL__.ops_cached.$gwx_32=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'bg-shadeTop text-white'])
+Z([3,'https://image.weilanwl.com/color2.0/plugin/sylb2244.jpg'])
 Z([3,'__l'])
 Z([1,true])
 Z([3,'1'])
@@ -1518,28 +1518,67 @@ function gz$gwx_33(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
 __WXML_GLOBAL__.ops_cached.$gwx_33=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'page data-v-416ddc7e'])
-Z([3,'bg-gradual-blue'])
+Z([3,'bg-shadeTop text-white'])
 Z([3,'__l'])
-Z([3,'data-v-416ddc7e'])
+Z([1,true])
 Z([3,'1'])
-Z([[4],[[5],[1,'content']]])
-Z([[2,'=='],[[7],[3,'TabCur']],[1,0]])
+Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
+}
+function gz$gwx_34(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
+__WXML_GLOBAL__.ops_cached.$gwx_34=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'index'])
 Z([3,'item'])
 Z([[7],[3,'contentList']])
-Z(z[7])
-Z([3,'cu-item shadow data-v-416ddc7e'])
+Z(z[0])
+Z([3,'cu-item shadow data-v-c773e4c8'])
 Z([[6],[[7],[3,'item']],[3,'img']])
 Z([[6],[[7],[3,'item']],[3,'video']])
 Z([[6],[[7],[3,'item']],[3,'audio']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
+Z([3,'__l'])
+Z([3,'__e'])
+Z([3,'data-v-c773e4c8'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'^updatePlay']],[[4],[[5],[[4],[[5],[[5],[[5],[1,'__set_sync']],[[4],[[5],[[5],[[5],[1,'$0']],[1,'audioPlay']],[1,'$event']]]],[[4],[[5],[1,'']]]]]]]]]]])
+Z([[7],[3,'audioPlay']])
+Z(z[7])
+Z([[2,'+'],[1,'1-'],[[7],[3,'index']]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_34);return __WXML_GLOBAL__.ops_cached.$gwx_34
+}
+function gz$gwx_35(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_35)return __WXML_GLOBAL__.ops_cached.$gwx_35
+__WXML_GLOBAL__.ops_cached.$gwx_35=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'page data-v-307c2746'])
+Z([3,'bg-gradual-blue'])
+Z([3,'__l'])
+Z([3,'data-v-307c2746'])
+Z([3,'1'])
+Z([[4],[[5],[1,'content']]])
+Z([[2,'=='],[[7],[3,'TabCur']],[1,0]])
+Z(z[2])
+Z(z[3])
+Z([[7],[3,'contentList']])
+Z([3,'2'])
+Z([[2,'=='],[[7],[3,'TabCur']],[1,1]])
+Z(z[2])
+Z(z[3])
+Z([[7],[3,'themeList']])
+Z([3,'3'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_35);return __WXML_GLOBAL__.ops_cached.$gwx_35
+}
+function gz$gwx_36(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_36)return __WXML_GLOBAL__.ops_cached.$gwx_36
+__WXML_GLOBAL__.ops_cached.$gwx_36=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_36);return __WXML_GLOBAL__.ops_cached.$gwx_36
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./colorui/components/cu-custom.wxml','./pages/basics/avatar.wxml','./pages/basics/background.wxml','./pages/basics/button.wxml','./pages/basics/design.wxml','./pages/basics/home.wxml','./pages/basics/icon.wxml','./pages/basics/layout.wxml','./pages/basics/loading.wxml','./pages/basics/progress.wxml','./pages/basics/shadow.wxml','./pages/basics/tag.wxml','./pages/basics/text.wxml','./pages/component/bar.wxml','./pages/component/card.wxml','./pages/component/chat.wxml','./pages/component/form.wxml','./pages/component/home.wxml','./pages/component/list.wxml','./pages/component/modal.wxml','./pages/component/nav.wxml','./pages/component/steps.wxml','./pages/component/swiper.wxml','./pages/component/timeline.wxml','./pages/data/index.wxml','./pages/index/index.wxml','./pages/my/index.wxml','./pages/plugin/animation.wxml','./pages/plugin/drawer.wxml','./pages/plugin/home.wxml','./pages/plugin/indexes.wxml','./pages/plugin/verticalnav.wxml','./pages/todo/index.wxml'];d_[x[0]]={}
+var x=['./colorui/components/cu-custom.wxml','./components/luch-audio/luch-audio.wxml','./pages/basics/avatar.wxml','./pages/basics/background.wxml','./pages/basics/button.wxml','./pages/basics/design.wxml','./pages/basics/home.wxml','./pages/basics/icon.wxml','./pages/basics/layout.wxml','./pages/basics/loading.wxml','./pages/basics/progress.wxml','./pages/basics/shadow.wxml','./pages/basics/tag.wxml','./pages/basics/text.wxml','./pages/component/bar.wxml','./pages/component/card.wxml','./pages/component/chat.wxml','./pages/component/form.wxml','./pages/component/home.wxml','./pages/component/list.wxml','./pages/component/modal.wxml','./pages/component/nav.wxml','./pages/component/steps.wxml','./pages/component/swiper.wxml','./pages/component/timeline.wxml','./pages/data/index.wxml','./pages/index/index.wxml','./pages/my/index.wxml','./pages/plugin/animation.wxml','./pages/plugin/drawer.wxml','./pages/plugin/home.wxml','./pages/plugin/indexes.wxml','./pages/plugin/verticalnav.wxml','./pages/todo/contentItem.wxml','./pages/todo/index.wxml','./pages/todo/themeItem.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_mz(z,'view',['class',0,'style',1],[],e,s,gg)
@@ -1566,29 +1605,18 @@ e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var cI=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var cI=_v()
 _(r,cI)
+if(_oz(z,0,e,s,gg)){cI.wxVkey=1
+}
+cI.wxXCkey=1
 return r
 }
 e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var lK=_n('view')
-var aL=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(lK,aL)
-var tM=_v()
-_(lK,tM)
-var eN=function(oP,bO,xQ,gg){
-var fS=_v()
-_(xQ,fS)
-if(_oz(z,9,oP,bO,gg)){fS.wxVkey=1
-}
-fS.wxXCkey=1
-return xQ
-}
-tM.wxXCkey=2
-_2z(z,7,eN,e,s,gg,tM,'item','index','index')
+var lK=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,lK)
 return r
 }
@@ -1596,200 +1624,173 @@ e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var hU=_n('view')
-var oV=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(hU,oV)
-var cW=_v()
-_(hU,cW)
-var oX=function(aZ,lY,t1,gg){
-var b3=_v()
-_(t1,b3)
-if(_oz(z,9,aZ,lY,gg)){b3.wxVkey=1
+var tM=_n('view')
+var eN=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(tM,eN)
+var bO=_v()
+_(tM,bO)
+var oP=function(oR,xQ,fS,gg){
+var hU=_v()
+_(fS,hU)
+if(_oz(z,9,oR,xQ,gg)){hU.wxVkey=1
 }
-b3.wxXCkey=1
-return t1
+hU.wxXCkey=1
+return fS
 }
-cW.wxXCkey=2
-_2z(z,7,oX,e,s,gg,cW,'item','index','index')
-_(r,hU)
+bO.wxXCkey=2
+_2z(z,7,oP,e,s,gg,bO,'item','index','index')
+_(r,tM)
 return r
 }
 e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 d_[x[4]]={}
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var x5=_n('view')
-var c8=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(x5,c8)
-var o6=_v()
-_(x5,o6)
-if(_oz(z,5,e,s,gg)){o6.wxVkey=1
+var cW=_n('view')
+var oX=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(cW,oX)
+var lY=_v()
+_(cW,lY)
+var aZ=function(e2,t1,b3,gg){
+var x5=_v()
+_(b3,x5)
+if(_oz(z,9,e2,t1,gg)){x5.wxVkey=1
 }
-var f7=_v()
-_(x5,f7)
-if(_oz(z,6,e,s,gg)){f7.wxVkey=1
+x5.wxXCkey=1
+return b3
 }
-var h9=_v()
-_(x5,h9)
-var o0=function(oBB,cAB,lCB,gg){
-var tEB=_v()
-_(lCB,tEB)
-if(_oz(z,11,oBB,cAB,gg)){tEB.wxVkey=1
-}
-tEB.wxXCkey=1
-return lCB
-}
-h9.wxXCkey=2
-_2z(z,9,o0,e,s,gg,h9,'item','index','index')
-o6.wxXCkey=1
-f7.wxXCkey=1
-_(r,x5)
+lY.wxXCkey=2
+_2z(z,7,aZ,e,s,gg,lY,'item','index','index')
+_(r,cW)
 return r
 }
 e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
 d_[x[5]]={}
 var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
+var f7=_n('view')
+var o0=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(f7,o0)
+var c8=_v()
+_(f7,c8)
+if(_oz(z,5,e,s,gg)){c8.wxVkey=1
+}
+var h9=_v()
+_(f7,h9)
+if(_oz(z,6,e,s,gg)){h9.wxVkey=1
+}
+var cAB=_v()
+_(f7,cAB)
+var oBB=function(aDB,lCB,tEB,gg){
+var bGB=_v()
+_(tEB,bGB)
+if(_oz(z,11,aDB,lCB,gg)){bGB.wxVkey=1
+}
+bGB.wxXCkey=1
+return tEB
+}
+cAB.wxXCkey=2
+_2z(z,9,oBB,e,s,gg,cAB,'item','index','index')
+c8.wxXCkey=1
+h9.wxXCkey=1
+_(r,f7)
 return r
 }
 e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
 d_[x[6]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
-var oHB=_n('view')
-var xIB=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(oHB,xIB)
-var oJB=_v()
-_(oHB,oJB)
-var fKB=function(hMB,cLB,oNB,gg){
-var oPB=_v()
-_(oNB,oPB)
-if(_oz(z,9,hMB,cLB,gg)){oPB.wxVkey=1
-}
-oPB.wxXCkey=1
-return oNB
-}
-oJB.wxXCkey=2
-_2z(z,7,fKB,e,s,gg,oJB,'item','index','index')
-_(r,oHB)
 return r
 }
 e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
 d_[x[7]]={}
 var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
-var aRB=_n('view')
-var oVB=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(aRB,oVB)
-var tSB=_v()
-_(aRB,tSB)
-if(_oz(z,5,e,s,gg)){tSB.wxVkey=1
+var oJB=_n('view')
+var fKB=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(oJB,fKB)
+var cLB=_v()
+_(oJB,cLB)
+var hMB=function(cOB,oNB,oPB,gg){
+var aRB=_v()
+_(oPB,aRB)
+if(_oz(z,9,cOB,oNB,gg)){aRB.wxVkey=1
 }
-var eTB=_v()
-_(aRB,eTB)
-if(_oz(z,6,e,s,gg)){eTB.wxVkey=1
+aRB.wxXCkey=1
+return oPB
 }
-var bUB=_v()
-_(aRB,bUB)
-if(_oz(z,7,e,s,gg)){bUB.wxVkey=1
-}
-tSB.wxXCkey=1
-eTB.wxXCkey=1
-bUB.wxXCkey=1
-_(r,aRB)
+cLB.wxXCkey=2
+_2z(z,7,hMB,e,s,gg,cLB,'item','index','index')
+_(r,oJB)
 return r
 }
 e_[x[7]]={f:m7,j:[],i:[],ti:[],ic:[]}
 d_[x[8]]={}
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var oXB=_n('view')
-var cZB=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(oXB,cZB)
-var fYB=_v()
-_(oXB,fYB)
-if(_oz(z,5,e,s,gg)){fYB.wxVkey=1
+var eTB=_n('view')
+var oXB=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(eTB,oXB)
+var bUB=_v()
+_(eTB,bUB)
+if(_oz(z,5,e,s,gg)){bUB.wxVkey=1
 }
-fYB.wxXCkey=1
-_(r,oXB)
+var oVB=_v()
+_(eTB,oVB)
+if(_oz(z,6,e,s,gg)){oVB.wxVkey=1
+}
+var xWB=_v()
+_(eTB,xWB)
+if(_oz(z,7,e,s,gg)){xWB.wxVkey=1
+}
+bUB.wxXCkey=1
+oVB.wxXCkey=1
+xWB.wxXCkey=1
+_(r,eTB)
 return r
 }
 e_[x[8]]={f:m8,j:[],i:[],ti:[],ic:[]}
 d_[x[9]]={}
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
-var o2B=_n('view')
-var c3B=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(o2B,c3B)
-var o4B=_v()
-_(o2B,o4B)
-var l5B=function(t7B,a6B,e8B,gg){
-var o0B=_v()
-_(e8B,o0B)
-if(_oz(z,9,t7B,a6B,gg)){o0B.wxVkey=1
+var cZB=_n('view')
+var o2B=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(cZB,o2B)
+var h1B=_v()
+_(cZB,h1B)
+if(_oz(z,5,e,s,gg)){h1B.wxVkey=1
 }
-o0B.wxXCkey=1
-return e8B
-}
-o4B.wxXCkey=2
-_2z(z,7,l5B,e,s,gg,o4B,'item','index','index')
-_(r,o2B)
+h1B.wxXCkey=1
+_(r,cZB)
 return r
 }
 e_[x[9]]={f:m9,j:[],i:[],ti:[],ic:[]}
 d_[x[10]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var oBC=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(r,oBC)
+var o4B=_n('view')
+var l5B=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(o4B,l5B)
+var a6B=_v()
+_(o4B,a6B)
+var t7B=function(b9B,e8B,o0B,gg){
+var oBC=_v()
+_(o0B,oBC)
+if(_oz(z,9,b9B,e8B,gg)){oBC.wxVkey=1
+}
+oBC.wxXCkey=1
+return o0B
+}
+a6B.wxXCkey=2
+_2z(z,7,t7B,e,s,gg,a6B,'item','index','index')
+_(r,o4B)
 return r
 }
 e_[x[10]]={f:m10,j:[],i:[],ti:[],ic:[]}
 d_[x[11]]={}
 var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
-var cDC=_n('view')
-var hEC=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(cDC,hEC)
-var oFC=_n('view')
-_rz(z,oFC,'class',5,e,s,gg)
-var cGC=_v()
-_(oFC,cGC)
-var oHC=function(aJC,lIC,tKC,gg){
-var bMC=_v()
-_(tKC,bMC)
-if(_oz(z,10,aJC,lIC,gg)){bMC.wxVkey=1
-}
-bMC.wxXCkey=1
-return tKC
-}
-cGC.wxXCkey=2
-_2z(z,8,oHC,e,s,gg,cGC,'item','index','index')
-var oNC=_v()
-_(oFC,oNC)
-var xOC=function(fQC,oPC,cRC,gg){
-var oTC=_v()
-_(cRC,oTC)
-if(_oz(z,15,fQC,oPC,gg)){oTC.wxVkey=1
-}
-oTC.wxXCkey=1
-return cRC
-}
-oNC.wxXCkey=2
-_2z(z,13,xOC,e,s,gg,oNC,'item','index','index')
-_(cDC,oFC)
-var cUC=_v()
-_(cDC,cUC)
-var oVC=function(aXC,lWC,tYC,gg){
-var b1C=_v()
-_(tYC,b1C)
-if(_oz(z,20,aXC,lWC,gg)){b1C.wxVkey=1
-}
-b1C.wxXCkey=1
-return tYC
-}
-cUC.wxXCkey=2
-_2z(z,18,oVC,e,s,gg,cUC,'item','index','index')
+var cDC=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,cDC)
 return r
 }
@@ -1797,22 +1798,56 @@ e_[x[11]]={f:m11,j:[],i:[],ti:[],ic:[]}
 d_[x[12]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
-var x3C=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(r,x3C)
+var oFC=_n('view')
+var cGC=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(oFC,cGC)
+var oHC=_n('view')
+_rz(z,oHC,'class',5,e,s,gg)
+var lIC=_v()
+_(oHC,lIC)
+var aJC=function(eLC,tKC,bMC,gg){
+var xOC=_v()
+_(bMC,xOC)
+if(_oz(z,10,eLC,tKC,gg)){xOC.wxVkey=1
+}
+xOC.wxXCkey=1
+return bMC
+}
+lIC.wxXCkey=2
+_2z(z,8,aJC,e,s,gg,lIC,'item','index','index')
+var oPC=_v()
+_(oHC,oPC)
+var fQC=function(hSC,cRC,oTC,gg){
+var oVC=_v()
+_(oTC,oVC)
+if(_oz(z,15,hSC,cRC,gg)){oVC.wxVkey=1
+}
+oVC.wxXCkey=1
+return oTC
+}
+oPC.wxXCkey=2
+_2z(z,13,fQC,e,s,gg,oPC,'item','index','index')
+_(oFC,oHC)
+var lWC=_v()
+_(oFC,lWC)
+var aXC=function(eZC,tYC,b1C,gg){
+var x3C=_v()
+_(b1C,x3C)
+if(_oz(z,20,eZC,tYC,gg)){x3C.wxVkey=1
+}
+x3C.wxXCkey=1
+return b1C
+}
+lWC.wxXCkey=2
+_2z(z,18,aXC,e,s,gg,lWC,'item','index','index')
+_(r,oFC)
 return r
 }
 e_[x[12]]={f:m12,j:[],i:[],ti:[],ic:[]}
 d_[x[13]]={}
 var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
-var f5C=_n('view')
-var h7C=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(f5C,h7C)
-var c6C=_v()
-_(f5C,c6C)
-if(_oz(z,5,e,s,gg)){c6C.wxVkey=1
-}
-c6C.wxXCkey=1
+var f5C=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,f5C)
 return r
 }
@@ -1820,8 +1855,15 @@ e_[x[13]]={f:m13,j:[],i:[],ti:[],ic:[]}
 d_[x[14]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
+var h7C=_n('view')
 var c9C=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(r,c9C)
+_(h7C,c9C)
+var o8C=_v()
+_(h7C,o8C)
+if(_oz(z,5,e,s,gg)){o8C.wxVkey=1
+}
+o8C.wxXCkey=1
+_(r,h7C)
 return r
 }
 e_[x[14]]={f:m14,j:[],i:[],ti:[],ic:[]}
@@ -1836,14 +1878,7 @@ e_[x[15]]={f:m15,j:[],i:[],ti:[],ic:[]}
 d_[x[16]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
-var tCD=_n('view')
-var bED=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(tCD,bED)
-var eDD=_v()
-_(tCD,eDD)
-if(_oz(z,5,e,s,gg)){eDD.wxVkey=1
-}
-eDD.wxXCkey=1
+var tCD=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,tCD)
 return r
 }
@@ -1851,168 +1886,110 @@ e_[x[16]]={f:m16,j:[],i:[],ti:[],ic:[]}
 d_[x[17]]={}
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
+var bED=_n('view')
+var xGD=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(bED,xGD)
+var oFD=_v()
+_(bED,oFD)
+if(_oz(z,5,e,s,gg)){oFD.wxVkey=1
+}
+oFD.wxXCkey=1
+_(r,bED)
 return r
 }
 e_[x[17]]={f:m17,j:[],i:[],ti:[],ic:[]}
 d_[x[18]]={}
 var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
-var oHD=_mz(z,'scroll-view',['class',0,'scrollY',1],[],e,s,gg)
-var fID=_mz(z,'cu-custom',['bgColor',2,'bind:__l',1,'isBack',2,'vueId',3,'vueSlots',4],[],e,s,gg)
-_(oHD,fID)
-var cJD=_v()
-_(oHD,cJD)
-var hKD=function(cMD,oLD,oND,gg){
-var aPD=_v()
-_(oND,aPD)
-if(_oz(z,11,cMD,oLD,gg)){aPD.wxVkey=1
-var tQD=_v()
-_(aPD,tQD)
-if(_oz(z,12,cMD,oLD,gg)){tQD.wxVkey=1
-var eRD=_v()
-_(tQD,eRD)
-if(_oz(z,13,cMD,oLD,gg)){eRD.wxVkey=1
-}
-eRD.wxXCkey=1
-}
-tQD.wxXCkey=1
-}
-aPD.wxXCkey=1
-return oND
-}
-cJD.wxXCkey=2
-_2z(z,9,hKD,e,s,gg,cJD,'item','index','index')
-_(r,oHD)
 return r
 }
 e_[x[18]]={f:m18,j:[],i:[],ti:[],ic:[]}
 d_[x[19]]={}
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
-var oTD=_n('view')
-var xUD=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(oTD,xUD)
-var oVD=_mz(z,'view',['bindtap',5,'class',1,'data-event-opts',2],[],e,s,gg)
-var fWD=_mz(z,'view',['catchtap',8,'class',1,'data-event-opts',2],[],e,s,gg)
-var cXD=_v()
-_(fWD,cXD)
-var hYD=function(c1D,oZD,o2D,gg){
-var a4D=_mz(z,'button',['bindtap',15,'class',1,'data-event-opts',2,'data-value',3],[],c1D,oZD,gg)
-var t5D=_v()
-_(a4D,t5D)
-if(_oz(z,19,c1D,oZD,gg)){t5D.wxVkey=1
+var cJD=_mz(z,'scroll-view',['class',0,'scrollY',1],[],e,s,gg)
+var hKD=_mz(z,'cu-custom',['bgColor',2,'bind:__l',1,'isBack',2,'vueId',3,'vueSlots',4],[],e,s,gg)
+_(cJD,hKD)
+var oLD=_v()
+_(cJD,oLD)
+var cMD=function(lOD,oND,aPD,gg){
+var eRD=_v()
+_(aPD,eRD)
+if(_oz(z,11,lOD,oND,gg)){eRD.wxVkey=1
+var bSD=_v()
+_(eRD,bSD)
+if(_oz(z,12,lOD,oND,gg)){bSD.wxVkey=1
+var oTD=_v()
+_(bSD,oTD)
+if(_oz(z,13,lOD,oND,gg)){oTD.wxVkey=1
 }
-t5D.wxXCkey=1
-_(o2D,a4D)
-return o2D
+oTD.wxXCkey=1
 }
-cXD.wxXCkey=2
-_2z(z,13,hYD,e,s,gg,cXD,'item','index','index')
-_(oVD,fWD)
-_(oTD,oVD)
-_(r,oTD)
+bSD.wxXCkey=1
+}
+eRD.wxXCkey=1
+return aPD
+}
+oLD.wxXCkey=2
+_2z(z,9,cMD,e,s,gg,oLD,'item','index','index')
+_(r,cJD)
 return r
 }
 e_[x[19]]={f:m19,j:[],i:[],ti:[],ic:[]}
 d_[x[20]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var b7D=_n('view')
-var o8D=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(b7D,o8D)
-var x9D=_v()
-_(b7D,x9D)
-var o0D=function(cBE,fAE,hCE,gg){
-var cEE=_v()
-_(hCE,cEE)
-if(_oz(z,9,cBE,fAE,gg)){cEE.wxVkey=1
+var oVD=_n('view')
+var fWD=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(oVD,fWD)
+var cXD=_mz(z,'view',['bindtap',5,'class',1,'data-event-opts',2],[],e,s,gg)
+var hYD=_mz(z,'view',['catchtap',8,'class',1,'data-event-opts',2],[],e,s,gg)
+var oZD=_v()
+_(hYD,oZD)
+var c1D=function(l3D,o2D,a4D,gg){
+var e6D=_mz(z,'button',['bindtap',15,'class',1,'data-event-opts',2,'data-value',3],[],l3D,o2D,gg)
+var b7D=_v()
+_(e6D,b7D)
+if(_oz(z,19,l3D,o2D,gg)){b7D.wxVkey=1
 }
-cEE.wxXCkey=1
-return hCE
+b7D.wxXCkey=1
+_(a4D,e6D)
+return a4D
 }
-x9D.wxXCkey=2
-_2z(z,7,o0D,e,s,gg,x9D,'item','index','index')
-_(r,b7D)
+oZD.wxXCkey=2
+_2z(z,13,c1D,e,s,gg,oZD,'item','index','index')
+_(cXD,hYD)
+_(oVD,cXD)
+_(r,oVD)
 return r
 }
 e_[x[20]]={f:m20,j:[],i:[],ti:[],ic:[]}
 d_[x[21]]={}
 var m21=function(e,s,r,gg){
 var z=gz$gwx_22()
-var lGE=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(r,lGE)
+var x9D=_n('view')
+var o0D=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(x9D,o0D)
+var fAE=_v()
+_(x9D,fAE)
+var cBE=function(oDE,hCE,cEE,gg){
+var lGE=_v()
+_(cEE,lGE)
+if(_oz(z,9,oDE,hCE,gg)){lGE.wxVkey=1
+}
+lGE.wxXCkey=1
+return cEE
+}
+fAE.wxXCkey=2
+_2z(z,7,cBE,e,s,gg,fAE,'item','index','index')
+_(r,x9D)
 return r
 }
 e_[x[21]]={f:m21,j:[],i:[],ti:[],ic:[]}
 d_[x[22]]={}
 var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
-var tIE=_n('view')
-var eJE=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(tIE,eJE)
-var bKE=_v()
-_(tIE,bKE)
-var oLE=function(oNE,xME,fOE,gg){
-var hQE=_n('swiper-item')
-var oRE=_v()
-_(hQE,oRE)
-if(_oz(z,9,oNE,xME,gg)){oRE.wxVkey=1
-}
-var cSE=_v()
-_(hQE,cSE)
-if(_oz(z,10,oNE,xME,gg)){cSE.wxVkey=1
-}
-oRE.wxXCkey=1
-cSE.wxXCkey=1
-_(fOE,hQE)
-return fOE
-}
-bKE.wxXCkey=2
-_2z(z,7,oLE,e,s,gg,bKE,'item','index','index')
-var oTE=_mz(z,'swiper',['autoplay',11,'bindchange',1,'circular',2,'class',3,'data-event-opts',4,'duration',5,'indicatorActiveColor',6,'indicatorColor',7,'indicatorDots',8,'interval',9],[],e,s,gg)
-var lUE=_v()
-_(oTE,lUE)
-var aVE=function(eXE,tWE,bYE,gg){
-var x1E=_n('view')
-_rz(z,x1E,'class',25,eXE,tWE,gg)
-var o2E=_v()
-_(x1E,o2E)
-if(_oz(z,26,eXE,tWE,gg)){o2E.wxVkey=1
-}
-var f3E=_v()
-_(x1E,f3E)
-if(_oz(z,27,eXE,tWE,gg)){f3E.wxVkey=1
-}
-o2E.wxXCkey=1
-f3E.wxXCkey=1
-_(bYE,x1E)
-return bYE
-}
-lUE.wxXCkey=2
-_2z(z,23,aVE,e,s,gg,lUE,'item','index','index')
-_(tIE,oTE)
-var c4E=_mz(z,'view',['bindtouchend',28,'bindtouchmove',1,'bindtouchstart',2,'class',3,'data-event-opts',4],[],e,s,gg)
-var h5E=_v()
-_(c4E,h5E)
-var o6E=function(o8E,c7E,l9E,gg){
-var tAF=_n('view')
-_rz(z,tAF,'class',37,o8E,c7E,gg)
-var eBF=_v()
-_(tAF,eBF)
-if(_oz(z,38,o8E,c7E,gg)){eBF.wxVkey=1
-}
-var bCF=_v()
-_(tAF,bCF)
-if(_oz(z,39,o8E,c7E,gg)){bCF.wxVkey=1
-}
-eBF.wxXCkey=1
-bCF.wxXCkey=1
-_(l9E,tAF)
-return l9E
-}
-h5E.wxXCkey=2
-_2z(z,35,o6E,e,s,gg,h5E,'item','index','index')
-_(tIE,c4E)
+var tIE=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,tIE)
 return r
 }
@@ -2020,15 +1997,80 @@ e_[x[22]]={f:m22,j:[],i:[],ti:[],ic:[]}
 d_[x[23]]={}
 var m23=function(e,s,r,gg){
 var z=gz$gwx_24()
-var xEF=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(r,xEF)
+var bKE=_n('view')
+var oLE=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+_(bKE,oLE)
+var xME=_v()
+_(bKE,xME)
+var oNE=function(cPE,fOE,hQE,gg){
+var cSE=_n('swiper-item')
+var oTE=_v()
+_(cSE,oTE)
+if(_oz(z,9,cPE,fOE,gg)){oTE.wxVkey=1
+}
+var lUE=_v()
+_(cSE,lUE)
+if(_oz(z,10,cPE,fOE,gg)){lUE.wxVkey=1
+}
+oTE.wxXCkey=1
+lUE.wxXCkey=1
+_(hQE,cSE)
+return hQE
+}
+xME.wxXCkey=2
+_2z(z,7,oNE,e,s,gg,xME,'item','index','index')
+var aVE=_mz(z,'swiper',['autoplay',11,'bindchange',1,'circular',2,'class',3,'data-event-opts',4,'duration',5,'indicatorActiveColor',6,'indicatorColor',7,'indicatorDots',8,'interval',9],[],e,s,gg)
+var tWE=_v()
+_(aVE,tWE)
+var eXE=function(oZE,bYE,x1E,gg){
+var f3E=_n('view')
+_rz(z,f3E,'class',25,oZE,bYE,gg)
+var c4E=_v()
+_(f3E,c4E)
+if(_oz(z,26,oZE,bYE,gg)){c4E.wxVkey=1
+}
+var h5E=_v()
+_(f3E,h5E)
+if(_oz(z,27,oZE,bYE,gg)){h5E.wxVkey=1
+}
+c4E.wxXCkey=1
+h5E.wxXCkey=1
+_(x1E,f3E)
+return x1E
+}
+tWE.wxXCkey=2
+_2z(z,23,eXE,e,s,gg,tWE,'item','index','index')
+_(bKE,aVE)
+var o6E=_mz(z,'view',['bindtouchend',28,'bindtouchmove',1,'bindtouchstart',2,'class',3,'data-event-opts',4],[],e,s,gg)
+var c7E=_v()
+_(o6E,c7E)
+var o8E=function(a0E,l9E,tAF,gg){
+var bCF=_n('view')
+_rz(z,bCF,'class',37,a0E,l9E,gg)
+var oDF=_v()
+_(bCF,oDF)
+if(_oz(z,38,a0E,l9E,gg)){oDF.wxVkey=1
+}
+var xEF=_v()
+_(bCF,xEF)
+if(_oz(z,39,a0E,l9E,gg)){xEF.wxVkey=1
+}
+oDF.wxXCkey=1
+xEF.wxXCkey=1
+_(tAF,bCF)
+return tAF
+}
+c7E.wxXCkey=2
+_2z(z,35,o8E,e,s,gg,c7E,'item','index','index')
+_(bKE,o6E)
+_(r,bKE)
 return r
 }
 e_[x[23]]={f:m23,j:[],i:[],ti:[],ic:[]}
 d_[x[24]]={}
 var m24=function(e,s,r,gg){
 var z=gz$gwx_25()
-var fGF=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'class',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var fGF=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,fGF)
 return r
 }
@@ -2036,31 +2078,7 @@ e_[x[24]]={f:m24,j:[],i:[],ti:[],ic:[]}
 d_[x[25]]={}
 var m25=function(e,s,r,gg){
 var z=gz$gwx_26()
-var hIF=_n('view')
-var oJF=_v()
-_(hIF,oJF)
-if(_oz(z,0,e,s,gg)){oJF.wxVkey=1
-var lMF=_mz(z,'todo',['bind:__l',1,'vueId',1],[],e,s,gg)
-_(oJF,lMF)
-}
-var cKF=_v()
-_(hIF,cKF)
-if(_oz(z,3,e,s,gg)){cKF.wxVkey=1
-var aNF=_mz(z,'data',['bind:__l',4,'vueId',1],[],e,s,gg)
-_(cKF,aNF)
-}
-var oLF=_v()
-_(hIF,oLF)
-if(_oz(z,6,e,s,gg)){oLF.wxVkey=1
-var tOF=_mz(z,'my',['bind:__l',7,'vueId',1],[],e,s,gg)
-_(oLF,tOF)
-}
-oJF.wxXCkey=1
-oJF.wxXCkey=3
-cKF.wxXCkey=1
-cKF.wxXCkey=3
-oLF.wxXCkey=1
-oLF.wxXCkey=3
+var hIF=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'class',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,hIF)
 return r
 }
@@ -2068,21 +2086,46 @@ e_[x[25]]={f:m25,j:[],i:[],ti:[],ic:[]}
 d_[x[26]]={}
 var m26=function(e,s,r,gg){
 var z=gz$gwx_27()
+var cKF=_n('view')
+_rz(z,cKF,'class',0,e,s,gg)
+var oLF=_v()
+_(cKF,oLF)
+if(_oz(z,1,e,s,gg)){oLF.wxVkey=1
+var tOF=_mz(z,'todo',['bind:__l',2,'class',1,'vueId',2],[],e,s,gg)
+_(oLF,tOF)
+}
+var lMF=_v()
+_(cKF,lMF)
+if(_oz(z,5,e,s,gg)){lMF.wxVkey=1
+var ePF=_mz(z,'data',['bind:__l',6,'class',1,'vueId',2],[],e,s,gg)
+_(lMF,ePF)
+}
+var aNF=_v()
+_(cKF,aNF)
+if(_oz(z,9,e,s,gg)){aNF.wxVkey=1
+var bQF=_mz(z,'my',['bind:__l',10,'class',1,'vueId',2],[],e,s,gg)
+_(aNF,bQF)
+}
+oLF.wxXCkey=1
+oLF.wxXCkey=3
+lMF.wxXCkey=1
+lMF.wxXCkey=3
+aNF.wxXCkey=1
+aNF.wxXCkey=3
+_(r,cKF)
 return r
 }
 e_[x[26]]={f:m26,j:[],i:[],ti:[],ic:[]}
 d_[x[27]]={}
 var m27=function(e,s,r,gg){
 var z=gz$gwx_28()
-var oRF=_mz(z,'cu-custom',['bgImage',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-_(r,oRF)
 return r
 }
 e_[x[27]]={f:m27,j:[],i:[],ti:[],ic:[]}
 d_[x[28]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
-var oTF=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var oTF=_mz(z,'cu-custom',['bgImage',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,oTF)
 return r
 }
@@ -2090,7 +2133,7 @@ e_[x[28]]={f:m28,j:[],i:[],ti:[],ic:[]}
 d_[x[29]]={}
 var m29=function(e,s,r,gg){
 var z=gz$gwx_30()
-var cVF=_mz(z,'cu-custom',['bgImage',0,'bind:__l',1,'vueId',1,'vueSlots',2],[],e,s,gg)
+var cVF=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,cVF)
 return r
 }
@@ -2098,7 +2141,7 @@ e_[x[29]]={f:m29,j:[],i:[],ti:[],ic:[]}
 d_[x[30]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var oXF=_mz(z,'cu-custom',['bgImage',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var oXF=_mz(z,'cu-custom',['bgImage',0,'bind:__l',1,'vueId',1,'vueSlots',2],[],e,s,gg)
 _(r,oXF)
 return r
 }
@@ -2106,7 +2149,7 @@ e_[x[30]]={f:m30,j:[],i:[],ti:[],ic:[]}
 d_[x[31]]={}
 var m31=function(e,s,r,gg){
 var z=gz$gwx_32()
-var oZF=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var oZF=_mz(z,'cu-custom',['bgImage',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,oZF)
 return r
 }
@@ -2114,43 +2157,77 @@ e_[x[31]]={f:m31,j:[],i:[],ti:[],ic:[]}
 d_[x[32]]={}
 var m32=function(e,s,r,gg){
 var z=gz$gwx_33()
-var a2F=_mz(z,'scroll-view',['scrollY',-1,'class',0],[],e,s,gg)
-var e4F=_mz(z,'cu-custom',['bgColor',1,'bind:__l',1,'class',2,'vueId',3,'vueSlots',4],[],e,s,gg)
-_(a2F,e4F)
-var t3F=_v()
-_(a2F,t3F)
-if(_oz(z,6,e,s,gg)){t3F.wxVkey=1
-var b5F=_v()
-_(t3F,b5F)
-var o6F=function(o8F,x7F,f9F,gg){
-var hAG=_n('view')
-_rz(z,hAG,'class',11,o8F,x7F,gg)
-var oBG=_v()
-_(hAG,oBG)
-if(_oz(z,12,o8F,x7F,gg)){oBG.wxVkey=1
-}
-var cCG=_v()
-_(hAG,cCG)
-if(_oz(z,13,o8F,x7F,gg)){cCG.wxVkey=1
-}
-var oDG=_v()
-_(hAG,oDG)
-if(_oz(z,14,o8F,x7F,gg)){oDG.wxVkey=1
-}
-oBG.wxXCkey=1
-cCG.wxXCkey=1
-oDG.wxXCkey=1
-_(f9F,hAG)
-return f9F
-}
-b5F.wxXCkey=2
-_2z(z,9,o6F,e,s,gg,b5F,'item','index','index')
-}
-t3F.wxXCkey=1
+var a2F=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
 _(r,a2F)
 return r
 }
 e_[x[32]]={f:m32,j:[],i:[],ti:[],ic:[]}
+d_[x[33]]={}
+var m33=function(e,s,r,gg){
+var z=gz$gwx_34()
+var e4F=_v()
+_(r,e4F)
+var b5F=function(x7F,o6F,o8F,gg){
+var c0F=_n('view')
+_rz(z,c0F,'class',4,x7F,o6F,gg)
+var hAG=_v()
+_(c0F,hAG)
+if(_oz(z,5,x7F,o6F,gg)){hAG.wxVkey=1
+}
+var oBG=_v()
+_(c0F,oBG)
+if(_oz(z,6,x7F,o6F,gg)){oBG.wxVkey=1
+}
+var cCG=_v()
+_(c0F,cCG)
+if(_oz(z,7,x7F,o6F,gg)){cCG.wxVkey=1
+var oDG=_mz(z,'luch-audio',['bind:__l',8,'bind:updatePlay',1,'class',2,'data-event-opts',3,'play',4,'src',5,'vueId',6],[],x7F,o6F,gg)
+_(cCG,oDG)
+}
+hAG.wxXCkey=1
+oBG.wxXCkey=1
+cCG.wxXCkey=1
+cCG.wxXCkey=3
+_(o8F,c0F)
+return o8F
+}
+e4F.wxXCkey=4
+_2z(z,2,b5F,e,s,gg,e4F,'item','index','index')
+return r
+}
+e_[x[33]]={f:m33,j:[],i:[],ti:[],ic:[]}
+d_[x[34]]={}
+var m34=function(e,s,r,gg){
+var z=gz$gwx_35()
+var aFG=_mz(z,'scroll-view',['scrollY',-1,'class',0],[],e,s,gg)
+var bIG=_mz(z,'cu-custom',['bgColor',1,'bind:__l',1,'class',2,'vueId',3,'vueSlots',4],[],e,s,gg)
+_(aFG,bIG)
+var tGG=_v()
+_(aFG,tGG)
+if(_oz(z,6,e,s,gg)){tGG.wxVkey=1
+var oJG=_mz(z,'content-item',['bind:__l',7,'class',1,'contentList',2,'vueId',3],[],e,s,gg)
+_(tGG,oJG)
+}
+var eHG=_v()
+_(aFG,eHG)
+if(_oz(z,11,e,s,gg)){eHG.wxVkey=1
+var xKG=_mz(z,'theme-item',['bind:__l',12,'class',1,'themeList',2,'vueId',3],[],e,s,gg)
+_(eHG,xKG)
+}
+tGG.wxXCkey=1
+tGG.wxXCkey=3
+eHG.wxXCkey=1
+eHG.wxXCkey=3
+_(r,aFG)
+return r
+}
+e_[x[34]]={f:m34,j:[],i:[],ti:[],ic:[]}
+d_[x[35]]={}
+var m35=function(e,s,r,gg){
+var z=gz$gwx_36()
+return r
+}
+e_[x[35]]={f:m35,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -2173,6 +2250,9 @@ __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['colorui/components/cu-custom.json']={"usingComponents":{},"component":true};
 __wxAppCode__['colorui/components/cu-custom.wxml']=$gwx('./colorui/components/cu-custom.wxml');
+
+__wxAppCode__['components/luch-audio/luch-audio.json']={"component":true,"usingComponents":{}};
+__wxAppCode__['components/luch-audio/luch-audio.wxml']=$gwx('./components/luch-audio/luch-audio.wxml');
 
 __wxAppCode__['pages/basics/avatar.json']={"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}};
 __wxAppCode__['pages/basics/avatar.wxml']=$gwx('./pages/basics/avatar.wxml');
@@ -2267,51 +2347,57 @@ __wxAppCode__['pages/plugin/indexes.wxml']=$gwx('./pages/plugin/indexes.wxml');
 __wxAppCode__['pages/plugin/verticalnav.json']={"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}};
 __wxAppCode__['pages/plugin/verticalnav.wxml']=$gwx('./pages/plugin/verticalnav.wxml');
 
-__wxAppCode__['pages/todo/index.json']={"usingComponents":{"cu-custom":"/colorui/components/cu-custom"},"component":true};
+__wxAppCode__['pages/todo/contentItem.json']={"component":true,"usingComponents":{"luch-audio":"/components/luch-audio/luch-audio"}};
+__wxAppCode__['pages/todo/contentItem.wxml']=$gwx('./pages/todo/contentItem.wxml');
+
+__wxAppCode__['pages/todo/index.json']={"usingComponents":{"cu-custom":"/colorui/components/cu-custom","content-item":"/pages/todo/contentItem","theme-item":"/pages/todo/themeItem"},"component":true};
 __wxAppCode__['pages/todo/index.wxml']=$gwx('./pages/todo/index.wxml');
+
+__wxAppCode__['pages/todo/themeItem.json']={"component":true,"usingComponents":{}};
+__wxAppCode__['pages/todo/themeItem.wxml']=$gwx('./pages/todo/themeItem.wxml');
 
 
 
 define('common/main.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["common/main"],{"0324":function(t,e,n){},"14ab":function(t,e,n){"use strict";var o,u=function(){var t=this,e=t.$createElement;t._self._c},a=[];n.d(e,"b",function(){return u}),n.d(e,"c",function(){return a}),n.d(e,"a",function(){return o})},"169e":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o={data:function(){return{}},methods:{}};e.default=o},"2ce7":function(t,e,n){"use strict";var o=n("8df2"),u=n.n(o);u.a},3376:function(t,e,n){"use strict";n.r(e);var o=n("169e"),u=n.n(o);for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);e["default"]=u.a},5127:function(t,e,n){"use strict";var o=n("e7d3"),u=n.n(o);u.a},"5ba1":function(t,e,n){"use strict";(function(t){n("fbf1"),n("921b");var e=r(n("66fd")),o=r(n("b887")),u=r(n("fff9")),a=r(n("83ee"));function r(t){return t&&t.__esModule?t:{default:t}}function c(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},o=Object.keys(n);"function"===typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),o.forEach(function(e){f(t,e,n[e])})}return t}function f(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var l=function(){return n.e("pages/basics/home").then(n.bind(null,"2a9f"))};e.default.component("basics",l);var i=function(){return n.e("pages/component/home").then(n.bind(null,"d2c7"))};e.default.component("components",i);var d=function(){return n.e("pages/plugin/home").then(n.bind(null,"5807"))};e.default.component("plugin",d);var s=function(){return n.e("colorui/components/cu-custom").then(n.bind(null,"8284"))};e.default.component("cu-custom",s),e.default.component("My",u.default),e.default.component("Data",a.default);var p=function(){return n.e("pages/todo/index").then(n.bind(null,"7822"))};e.default.component("Todo",p),e.default.config.productionTip=!1,o.default.mpType="app";var b=new e.default(c({},o.default));t(b).$mount()}).call(this,n("6e42")["createApp"])},6531:function(t,e,n){"use strict";(function(t,o){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u=a(n("66fd"));function a(t){return t&&t.__esModule?t:{default:t}}var r={onLaunch:function(){t.getSystemInfo({success:function(t){u.default.prototype.StatusBar=t.statusBarHeight,"android"==t.platform?u.default.prototype.CustomBar=t.statusBarHeight+50:u.default.prototype.CustomBar=t.statusBarHeight+45}}),u.default.prototype.ColorList=[{title:"嫣红",name:"red",color:"#e54d42"},{title:"桔橙",name:"orange",color:"#f37b1d"},{title:"明黄",name:"yellow",color:"#fbbd08"},{title:"橄榄",name:"olive",color:"#8dc63f"},{title:"森绿",name:"green",color:"#39b54a"},{title:"天青",name:"cyan",color:"#1cbbb4"},{title:"海蓝",name:"blue",color:"#0081ff"},{title:"姹紫",name:"purple",color:"#6739b6"},{title:"木槿",name:"mauve",color:"#9c26b0"},{title:"桃粉",name:"pink",color:"#e03997"},{title:"棕褐",name:"brown",color:"#a5673f"},{title:"玄灰",name:"grey",color:"#8799a3"},{title:"草灰",name:"gray",color:"#aaaaaa"},{title:"墨黑",name:"black",color:"#333333"},{title:"雅白",name:"white",color:"#ffffff"}]},onShow:function(){console.log(o("App Show"," at App.vue:109"))},onHide:function(){console.log(o("App Hide"," at App.vue:112"))}};e.default=r}).call(this,n("6e42")["default"],n("0de9")["default"])},7642:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o={data:function(){return{avatar:"https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg",name:"xxx"}}};e.default=o},"83ee":function(t,e,n){"use strict";n.r(e);var o=n("14ab"),u=n("3376");for(var a in u)"default"!==a&&function(t){n.d(e,t,function(){return u[t]})}(a);n("2ce7");var r,c=n("f0c5"),f=Object(c["a"])(u["default"],o["b"],o["c"],!1,null,"65e8d3a6",null,!1,o["a"],r);e["default"]=f.exports},"85c4":function(t,e,n){"use strict";var o,u=function(){var t=this,e=t.$createElement;t._self._c},a=[];n.d(e,"b",function(){return u}),n.d(e,"c",function(){return a}),n.d(e,"a",function(){return o})},"8df2":function(t,e,n){},ade1:function(t,e,n){"use strict";var o=n("0324"),u=n.n(o);u.a},b017:function(t,e,n){"use strict";n.r(e);var o=n("7642"),u=n.n(o);for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);e["default"]=u.a},b887:function(t,e,n){"use strict";n.r(e);var o=n("c72e");for(var u in o)"default"!==u&&function(t){n.d(e,t,function(){return o[t]})}(u);n("ade1");var a,r,c,f,l=n("f0c5"),i=Object(l["a"])(o["default"],a,r,!1,null,null,null,!1,c,f);e["default"]=i.exports},c72e:function(t,e,n){"use strict";n.r(e);var o=n("6531"),u=n.n(o);for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);e["default"]=u.a},e7d3:function(t,e,n){},fff9:function(t,e,n){"use strict";n.r(e);var o=n("85c4"),u=n("b017");for(var a in u)"default"!==a&&function(t){n.d(e,t,function(){return u[t]})}(a);n("5127");var r,c=n("f0c5"),f=Object(c["a"])(u["default"],o["b"],o["c"],!1,null,"2d0f7de6",null,!1,o["a"],r);e["default"]=f.exports}},[["5ba1","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["common/main"],{"0324":function(t,e,n){},"169e":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o={data:function(){return{}},methods:{}};e.default=o},2825:function(t,e,n){"use strict";var o=n("7725"),u=n.n(o);u.a},3376:function(t,e,n){"use strict";n.r(e);var o=n("169e"),u=n.n(o);for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);e["default"]=u.a},"5ba1":function(t,e,n){"use strict";(function(t){n("fbf1"),n("921b");var e=r(n("66fd")),o=r(n("b887")),u=r(n("fff9")),a=r(n("83ee"));function r(t){return t&&t.__esModule?t:{default:t}}function c(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},o=Object.keys(n);"function"===typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),o.forEach(function(e){f(t,e,n[e])})}return t}function f(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var l=function(){return n.e("pages/basics/home").then(n.bind(null,"2a9f"))};e.default.component("basics",l);var i=function(){return n.e("pages/component/home").then(n.bind(null,"d2c7"))};e.default.component("components",i);var d=function(){return n.e("pages/plugin/home").then(n.bind(null,"5807"))};e.default.component("plugin",d);var s=function(){return n.e("colorui/components/cu-custom").then(n.bind(null,"8284"))};e.default.component("cu-custom",s),e.default.component("My",u.default),e.default.component("Data",a.default);var p=function(){return n.e("pages/todo/index").then(n.bind(null,"7822"))};e.default.component("Todo",p),e.default.config.productionTip=!1,o.default.mpType="app";var b=new e.default(c({},o.default));t(b).$mount()}).call(this,n("6e42")["createApp"])},"5ede":function(t,e,n){"use strict";var o,u=function(){var t=this,e=t.$createElement;t._self._c},a=[];n.d(e,"b",function(){return u}),n.d(e,"c",function(){return a}),n.d(e,"a",function(){return o})},6531:function(t,e,n){"use strict";(function(t,o){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u=a(n("66fd"));function a(t){return t&&t.__esModule?t:{default:t}}var r={onLaunch:function(){t.getSystemInfo({success:function(t){u.default.prototype.StatusBar=t.statusBarHeight,"android"==t.platform?u.default.prototype.CustomBar=t.statusBarHeight+50:u.default.prototype.CustomBar=t.statusBarHeight+45}}),u.default.prototype.ColorList=[{title:"嫣红",name:"red",color:"#e54d42"},{title:"桔橙",name:"orange",color:"#f37b1d"},{title:"明黄",name:"yellow",color:"#fbbd08"},{title:"橄榄",name:"olive",color:"#8dc63f"},{title:"森绿",name:"green",color:"#39b54a"},{title:"天青",name:"cyan",color:"#1cbbb4"},{title:"海蓝",name:"blue",color:"#0081ff"},{title:"姹紫",name:"purple",color:"#6739b6"},{title:"木槿",name:"mauve",color:"#9c26b0"},{title:"桃粉",name:"pink",color:"#e03997"},{title:"棕褐",name:"brown",color:"#a5673f"},{title:"玄灰",name:"grey",color:"#8799a3"},{title:"草灰",name:"gray",color:"#aaaaaa"},{title:"墨黑",name:"black",color:"#333333"},{title:"雅白",name:"white",color:"#ffffff"}]},onShow:function(){console.log(o("App Show"," at App.vue:109"))},onHide:function(){console.log(o("App Hide"," at App.vue:112"))}};e.default=r}).call(this,n("6e42")["default"],n("0de9")["default"])},7642:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o={data:function(){return{avatar:"https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg",name:"梦涛"}}};e.default=o},7725:function(t,e,n){},"83ee":function(t,e,n){"use strict";n.r(e);var o=n("f6fd"),u=n("3376");for(var a in u)"default"!==a&&function(t){n.d(e,t,function(){return u[t]})}(a);n("9bb0");var r,c=n("f0c5"),f=Object(c["a"])(u["default"],o["b"],o["c"],!1,null,"d774aa20",null,!1,o["a"],r);e["default"]=f.exports},"9bb0":function(t,e,n){"use strict";var o=n("e0ff"),u=n.n(o);u.a},ade1:function(t,e,n){"use strict";var o=n("0324"),u=n.n(o);u.a},b017:function(t,e,n){"use strict";n.r(e);var o=n("7642"),u=n.n(o);for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);e["default"]=u.a},b887:function(t,e,n){"use strict";n.r(e);var o=n("c72e");for(var u in o)"default"!==u&&function(t){n.d(e,t,function(){return o[t]})}(u);n("ade1");var a,r,c,f,l=n("f0c5"),i=Object(l["a"])(o["default"],a,r,!1,null,null,null,!1,c,f);e["default"]=i.exports},c72e:function(t,e,n){"use strict";n.r(e);var o=n("6531"),u=n.n(o);for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);e["default"]=u.a},e0ff:function(t,e,n){},f6fd:function(t,e,n){"use strict";var o,u=function(){var t=this,e=t.$createElement;t._self._c},a=[];n.d(e,"b",function(){return u}),n.d(e,"c",function(){return a}),n.d(e,"a",function(){return o})},fff9:function(t,e,n){"use strict";n.r(e);var o=n("5ede"),u=n("b017");for(var a in u)"default"!==a&&function(t){n.d(e,t,function(){return u[t]})}(a);n("2825");var r,c=n("f0c5"),f=Object(c["a"])(u["default"],o["b"],o["c"],!1,null,"060bc187",null,!1,o["a"],r);e["default"]=f.exports}},[["5ba1","common/runtime","common/vendor"]]]);
 });
 define('common/runtime.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
 "use strict";
 
 (function (e) {
   function t(t) {
-    for (var r, o, i = t[0], s = t[1], c = t[2], l = 0, p = []; l < i.length; l++) {
-      o = i[l], a[o] && p.push(a[o][0]), a[o] = 0;
+    for (var n, r, i = t[0], c = t[1], s = t[2], l = 0, p = []; l < i.length; l++) {
+      r = i[l], a[r] && p.push(a[r][0]), a[r] = 0;
     }
 
-    for (r in s) {
-      Object.prototype.hasOwnProperty.call(s, r) && (e[r] = s[r]);
+    for (n in c) {
+      Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
     }
 
-    f && f(t);
+    m && m(t);
 
     while (p.length) {
       p.shift()();
     }
 
-    return u.push.apply(u, c || []), n();
+    return u.push.apply(u, s || []), o();
   }
 
-  function n() {
+  function o() {
     for (var e, t = 0; t < u.length; t++) {
-      for (var n = u[t], r = !0, o = 1; o < n.length; o++) {
-        var i = n[o];
-        0 !== a[i] && (r = !1);
+      for (var o = u[t], n = !0, r = 1; r < o.length; r++) {
+        var i = o[r];
+        0 !== a[i] && (n = !1);
       }
 
-      r && (u.splice(t--, 1), e = s(s.s = n[0]));
+      n && (u.splice(t--, 1), e = c(c.s = o[0]));
     }
 
     return e;
   }
 
-  var r = {},
-      o = {
+  var n = {},
+      r = {
     "common/runtime": 0
   },
       a = {
@@ -2320,136 +2406,142 @@ define('common/runtime.js',function(require, module, exports, window, document, 
       u = [];
 
   function i(e) {
-    return s.p + "" + e + ".js";
+    return c.p + "" + e + ".js";
   }
 
-  function s(t) {
-    if (r[t]) return r[t].exports;
-    var n = r[t] = {
+  function c(t) {
+    if (n[t]) return n[t].exports;
+    var o = n[t] = {
       i: t,
       l: !1,
       exports: {}
     };
-    return e[t].call(n.exports, n, n.exports, s), n.l = !0, n.exports;
+    return e[t].call(o.exports, o, o.exports, c), o.l = !0, o.exports;
   }
 
-  s.e = function (e) {
+  c.e = function (e) {
     var t = [],
-        n = {
+        o = {
       "pages/basics/home": 1,
       "pages/component/home": 1,
       "pages/plugin/home": 1,
-      "pages/todo/index": 1
+      "pages/todo/index": 1,
+      "pages/todo/contentItem": 1,
+      "pages/todo/themeItem": 1,
+      "components/luch-audio/luch-audio": 1
     };
-    o[e] ? t.push(o[e]) : 0 !== o[e] && n[e] && t.push(o[e] = new Promise(function (t, n) {
-      for (var r = ({
+    r[e] ? t.push(r[e]) : 0 !== r[e] && o[e] && t.push(r[e] = new Promise(function (t, o) {
+      for (var n = ({
         "colorui/components/cu-custom": "colorui/components/cu-custom",
         "pages/basics/home": "pages/basics/home",
         "pages/component/home": "pages/component/home",
         "pages/plugin/home": "pages/plugin/home",
-        "pages/todo/index": "pages/todo/index"
-      }[e] || e) + ".wxss", a = s.p + r, u = document.getElementsByTagName("link"), i = 0; i < u.length; i++) {
-        var c = u[i],
-            l = c.getAttribute("data-href") || c.getAttribute("href");
-        if ("stylesheet" === c.rel && (l === r || l === a)) return t();
+        "pages/todo/index": "pages/todo/index",
+        "pages/todo/contentItem": "pages/todo/contentItem",
+        "pages/todo/themeItem": "pages/todo/themeItem",
+        "components/luch-audio/luch-audio": "components/luch-audio/luch-audio"
+      }[e] || e) + ".wxss", a = c.p + n, u = document.getElementsByTagName("link"), i = 0; i < u.length; i++) {
+        var s = u[i],
+            l = s.getAttribute("data-href") || s.getAttribute("href");
+        if ("stylesheet" === s.rel && (l === n || l === a)) return t();
       }
 
       var p = document.getElementsByTagName("style");
 
       for (i = 0; i < p.length; i++) {
-        c = p[i], l = c.getAttribute("data-href");
-        if (l === r || l === a) return t();
+        s = p[i], l = s.getAttribute("data-href");
+        if (l === n || l === a) return t();
       }
 
-      var f = document.createElement("link");
-      f.rel = "stylesheet", f.type = "text/css", f.onload = t, f.onerror = function (t) {
-        var r = t && t.target && t.target.src || a,
-            u = new Error("Loading CSS chunk " + e + " failed.\n(" + r + ")");
-        u.request = r, delete o[e], f.parentNode.removeChild(f), n(u);
-      }, f.href = a;
-      var m = document.getElementsByTagName("head")[0];
-      m.appendChild(f);
+      var m = document.createElement("link");
+      m.rel = "stylesheet", m.type = "text/css", m.onload = t, m.onerror = function (t) {
+        var n = t && t.target && t.target.src || a,
+            u = new Error("Loading CSS chunk " + e + " failed.\n(" + n + ")");
+        u.request = n, delete r[e], m.parentNode.removeChild(m), o(u);
+      }, m.href = a;
+      var d = document.getElementsByTagName("head")[0];
+      d.appendChild(m);
     }).then(function () {
-      o[e] = 0;
+      r[e] = 0;
     }));
-    var r = a[e];
-    if (0 !== r) if (r) t.push(r[2]);else {
-      var u = new Promise(function (t, n) {
-        r = a[e] = [t, n];
+    var n = a[e];
+    if (0 !== n) if (n) t.push(n[2]);else {
+      var u = new Promise(function (t, o) {
+        n = a[e] = [t, o];
       });
-      t.push(r[2] = u);
-      var c,
+      t.push(n[2] = u);
+      var s,
           l = document.createElement("script");
-      l.charset = "utf-8", l.timeout = 120, s.nc && l.setAttribute("nonce", s.nc), l.src = i(e), c = function c(t) {
+      l.charset = "utf-8", l.timeout = 120, c.nc && l.setAttribute("nonce", c.nc), l.src = i(e), s = function s(t) {
         l.onerror = l.onload = null, clearTimeout(p);
-        var n = a[e];
+        var o = a[e];
 
-        if (0 !== n) {
-          if (n) {
-            var r = t && ("load" === t.type ? "missing" : t.type),
-                o = t && t.target && t.target.src,
-                u = new Error("Loading chunk " + e + " failed.\n(" + r + ": " + o + ")");
-            u.type = r, u.request = o, n[1](u);
+        if (0 !== o) {
+          if (o) {
+            var n = t && ("load" === t.type ? "missing" : t.type),
+                r = t && t.target && t.target.src,
+                u = new Error("Loading chunk " + e + " failed.\n(" + n + ": " + r + ")");
+            u.type = n, u.request = r, o[1](u);
           }
 
           a[e] = void 0;
         }
       };
       var p = setTimeout(function () {
-        c({
+        s({
           type: "timeout",
           target: l
         });
       }, 12e4);
-      l.onerror = l.onload = c, document.head.appendChild(l);
+      l.onerror = l.onload = s, document.head.appendChild(l);
     }
     return Promise.all(t);
-  }, s.m = e, s.c = r, s.d = function (e, t, n) {
-    s.o(e, t) || Object.defineProperty(e, t, {
+  }, c.m = e, c.c = n, c.d = function (e, t, o) {
+    c.o(e, t) || Object.defineProperty(e, t, {
       enumerable: !0,
-      get: n
+      get: o
     });
-  }, s.r = function (e) {
+  }, c.r = function (e) {
     "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
       value: "Module"
     }), Object.defineProperty(e, "__esModule", {
       value: !0
     });
-  }, s.t = function (e, t) {
-    if (1 & t && (e = s(e)), 8 & t) return e;
+  }, c.t = function (e, t) {
+    if (1 & t && (e = c(e)), 8 & t) return e;
     if (4 & t && "object" === typeof e && e && e.__esModule) return e;
-    var n = Object.create(null);
-    if (s.r(n), Object.defineProperty(n, "default", {
+    var o = Object.create(null);
+    if (c.r(o), Object.defineProperty(o, "default", {
       enumerable: !0,
       value: e
-    }), 2 & t && "string" != typeof e) for (var r in e) {
-      s.d(n, r, function (t) {
+    }), 2 & t && "string" != typeof e) for (var n in e) {
+      c.d(o, n, function (t) {
         return e[t];
-      }.bind(null, r));
+      }.bind(null, n));
     }
-    return n;
-  }, s.n = function (e) {
+    return o;
+  }, c.n = function (e) {
     var t = e && e.__esModule ? function () {
       return e["default"];
     } : function () {
       return e;
     };
-    return s.d(t, "a", t), t;
-  }, s.o = function (e, t) {
+    return c.d(t, "a", t), t;
+  }, c.o = function (e, t) {
     return Object.prototype.hasOwnProperty.call(e, t);
-  }, s.p = "/", s.oe = function (e) {
+  }, c.p = "/", c.oe = function (e) {
     throw console.error(e), e;
   };
-  var c = global["webpackJsonp"] = global["webpackJsonp"] || [],
-      l = c.push.bind(c);
-  c.push = t, c = c.slice();
+  var s = global["webpackJsonp"] = global["webpackJsonp"] || [],
+      l = s.push.bind(s);
+  s.push = t, s = s.slice();
 
-  for (var p = 0; p < c.length; p++) {
-    t(c[p]);
+  for (var p = 0; p < s.length; p++) {
+    t(s[p]);
   }
 
-  var f = l;
-  n();
+  var m = l;
+  o();
 })([]);
 });
 define('common/vendor.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -2590,6 +2682,185 @@ define('colorui/components/cu-custom.js',function(require, module, exports, wind
 }, [['colorui/components/cu-custom-create-component']]]);
 });
 require('colorui/components/cu-custom.js');
+__wxRoute = 'components/luch-audio/luch-audio';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/luch-audio/luch-audio.js';
+
+define('components/luch-audio/luch-audio.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";
+
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["components/luch-audio/luch-audio"], {
+  "19f2": function f2(t, n, e) {},
+  "82f8": function f8(t, n, e) {
+    "use strict";
+
+    (function (t, e) {
+      function o(t) {
+        var n;
+        return n = Math.floor(t / 60), t %= 60, n += "", t += "", n = 1 === n.length ? "0" + n : n, t = 1 === t.length ? "0" + t : t, n + ":" + t;
+      }
+
+      Object.defineProperty(n, "__esModule", {
+        value: !0
+      }), n.default = void 0;
+      var u = {
+        name: "ComAudio",
+        props: {
+          play: {
+            type: Boolean,
+            required: !0
+          },
+          src: {
+            type: String
+          },
+          poster: {
+            type: String,
+            default: ""
+          },
+          name: {
+            type: String,
+            default: "未知音频"
+          },
+          author: {
+            type: String,
+            default: "未知作者"
+          },
+          autoplay: {
+            type: Boolean,
+            default: !1
+          },
+          loop: {
+            type: Boolean,
+            default: !1
+          },
+          obeyMuteSwitch: {
+            type: Boolean,
+            default: !0
+          }
+        },
+        data: function data() {
+          return {
+            audioTimeUpdate: "00:00",
+            innerAudioContext: ""
+          };
+        },
+        methods: {
+          audioPlay: function audioPlay() {
+            this.$emit("update:play", !0);
+          },
+          audioPause: function audioPause() {
+            this.$emit("update:play", !1);
+          },
+          handleBtnClick: function handleBtnClick() {
+            this.$emit("update:play", !this.play);
+          },
+          contextInit: function contextInit() {
+            console.log(t("创建", " at components\\luch-audio\\luch-audio.vue:103"));
+            var n = this;
+            n.$emit("update:play", !1);
+            var u = e.createInnerAudioContext();
+            u.autoplay = n.autoplay, u.src = n.src, u.loop = n.loop, u.obeyMuteSwitch = n.obeyMuteSwitch, u.onPlay(function () {
+              n.audioTimeUpdate = o(Math.floor(u.currentTime)), n.audioPlay();
+            }), u.onPause(function () {
+              n.audioPause();
+            }), u.onEnded(function () {
+              n.audioPause();
+            }), u.onTimeUpdate(function () {
+              n.audioTimeUpdate = o(Math.floor(u.currentTime));
+            }), u.onError(function (n) {
+              console.log(t(n, " at components\\luch-audio\\luch-audio.vue:125"));
+            }), this.innerAudioContext = u;
+          }
+        },
+        watch: {
+          play: function play(t) {
+            t ? this.innerAudioContext.play() : this.innerAudioContext.pause();
+          },
+          src: function src() {
+            this.innerAudioContext.destroy(), this.contextInit();
+          }
+        },
+        created: function created() {
+          this.contextInit();
+        },
+        beforeDestroy: function beforeDestroy() {
+          this.innerAudioContext.destroy();
+        }
+      };
+      n.default = u;
+    }).call(this, e("0de9")["default"], e("6e42")["default"]);
+  },
+  a68c: function a68c(t, n, e) {
+    "use strict";
+
+    var o = e("19f2"),
+        u = e.n(o);
+    u.a;
+  },
+  b56a: function b56a(t, n, e) {
+    "use strict";
+
+    e.r(n);
+    var o = e("82f8"),
+        u = e.n(o);
+
+    for (var a in o) {
+      "default" !== a && function (t) {
+        e.d(n, t, function () {
+          return o[t];
+        });
+      }(a);
+    }
+
+    n["default"] = u.a;
+  },
+  c389: function c389(t, n, e) {
+    "use strict";
+
+    e.r(n);
+    var o = e("da25"),
+        u = e("b56a");
+
+    for (var a in u) {
+      "default" !== a && function (t) {
+        e.d(n, t, function () {
+          return u[t];
+        });
+      }(a);
+    }
+
+    e("a68c");
+    var i,
+        c = e("f0c5"),
+        r = Object(c["a"])(u["default"], o["b"], o["c"], !1, null, null, null, !1, o["a"], i);
+    n["default"] = r.exports;
+  },
+  da25: function da25(t, n, e) {
+    "use strict";
+
+    var o,
+        u = function u() {
+      var t = this,
+          n = t.$createElement;
+      t._self._c;
+    },
+        a = [];
+
+    e.d(n, "b", function () {
+      return u;
+    }), e.d(n, "c", function () {
+      return a;
+    }), e.d(n, "a", function () {
+      return o;
+    });
+  }
+}]);
+;
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push(['components/luch-audio/luch-audio-create-component', {
+  'components/luch-audio/luch-audio-create-component': function componentsLuchAudioLuchAudioCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('6e42')['createComponent'](__webpack_require__("c389"));
+  }
+}, [['components/luch-audio/luch-audio-create-component']]]);
+});
+require('components/luch-audio/luch-audio.js');
 __wxRoute = 'pages/basics/home';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/basics/home.js';
 
 define('pages/basics/home.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -3009,18 +3280,38 @@ define('pages/plugin/home.js',function(require, module, exports, window, documen
 }, [['pages/plugin/home-create-component']]]);
 });
 require('pages/plugin/home.js');
-__wxRoute = 'pages/todo/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/todo/index.js';
+__wxRoute = 'pages/todo/contentItem';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/todo/contentItem.js';
 
-define('pages/todo/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+define('pages/todo/contentItem.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
 "use strict";
 
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/todo/index"], {
-  "250f": function f(t, n, i) {},
-  "2cf2": function cf2(t, n, i) {
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/todo/contentItem"], {
+  "624b": function b(t, n, e) {
     "use strict";
 
-    var e,
-        a = function a() {
+    e.r(n);
+    var u = e("8d2b"),
+        o = e("aae2");
+
+    for (var i in o) {
+      "default" !== i && function (t) {
+        e.d(n, t, function () {
+          return o[t];
+        });
+      }(i);
+    }
+
+    e("a011");
+    var a,
+        c = e("f0c5"),
+        s = Object(c["a"])(o["default"], u["b"], u["c"], !1, null, "c773e4c8", null, !1, u["a"], a);
+    n["default"] = s.exports;
+  },
+  "8d2b": function d2b(t, n, e) {
+    "use strict";
+
+    var u,
+        o = function o() {
       var t = this,
           n = t.$createElement;
       t._self._c;
@@ -3028,24 +3319,125 @@ define('pages/todo/index.js',function(require, module, exports, window, document
         t.isShow = !1;
       });
     },
-        o = [];
+        i = [];
 
-    i.d(n, "b", function () {
-      return a;
-    }), i.d(n, "c", function () {
+    e.d(n, "b", function () {
       return o;
-    }), i.d(n, "a", function () {
-      return e;
+    }), e.d(n, "c", function () {
+      return i;
+    }), e.d(n, "a", function () {
+      return u;
     });
   },
-  "479b": function b(t, n, i) {
+  a011: function a011(t, n, e) {
     "use strict";
 
-    (function (t, i) {
-      Object.defineProperty(n, "__esModule", {
+    var u = e("f231"),
+        o = e.n(u);
+    o.a;
+  },
+  aae2: function aae2(t, n, e) {
+    "use strict";
+
+    e.r(n);
+    var u = e("dd18"),
+        o = e.n(u);
+
+    for (var i in u) {
+      "default" !== i && function (t) {
+        e.d(n, t, function () {
+          return u[t];
+        });
+      }(i);
+    }
+
+    n["default"] = o.a;
+  },
+  dd18: function dd18(t, n, e) {
+    "use strict";
+
+    Object.defineProperty(n, "__esModule", {
+      value: !0
+    }), n.default = void 0;
+
+    var u = function u() {
+      return e.e("components/luch-audio/luch-audio").then(e.bind(null, "c389"));
+    },
+        o = {
+      props: ["contentList"],
+      components: {
+        luchAudio: u
+      },
+      data: function data() {
+        return {
+          isShow: !1,
+          remark: "",
+          contentId: null,
+          contentStatus: null,
+          audioPlay: !1
+        };
+      },
+      methods: {
+        isPass: function isPass(t, n) {
+          this.isShow = !0, this.contentStatus = n, this.contentId = t.id;
+        },
+        hideModal: function hideModal() {
+          this.isShow = !1;
+        },
+        writeRemark: function writeRemark(t) {
+          this.remark = t.detail.value;
+        },
+        submitIsPass: function submitIsPass() {
+          this.isShow = !1;
+        }
+      }
+    };
+
+    n.default = o;
+  },
+  f231: function f231(t, n, e) {}
+}]);
+;
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push(['pages/todo/contentItem-create-component', {
+  'pages/todo/contentItem-create-component': function pagesTodoContentItemCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('6e42')['createComponent'](__webpack_require__("624b"));
+  }
+}, [['pages/todo/contentItem-create-component']]]);
+});
+require('pages/todo/contentItem.js');
+__wxRoute = 'pages/todo/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/todo/index.js';
+
+define('pages/todo/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";
+
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/todo/index"], {
+  "19c1": function c1(t, e, n) {},
+  3681: function _(t, e, n) {
+    "use strict";
+
+    var i = n("19c1"),
+        a = n.n(i);
+    a.a;
+  },
+  "479b": function b(t, e, n) {
+    "use strict";
+
+    (function (t) {
+      Object.defineProperty(e, "__esModule", {
         value: !0
-      }), n.default = void 0;
-      var e = {
+      }), e.default = void 0;
+
+      var i = function i() {
+        return n.e("pages/todo/contentItem").then(n.bind(null, "624b"));
+      },
+          a = function a() {
+        return n.e("pages/todo/themeItem").then(n.bind(null, "579c"));
+      },
+          o = {
+        components: {
+          contentItem: i,
+          themeItem: a
+        },
         data: function data() {
           return {
             CustomBar: this.CustomBar,
@@ -3053,11 +3445,19 @@ define('pages/todo/index.js',function(require, module, exports, window, document
             tabNav: ["内容", "主题"],
             searchValue: "",
             imgUrl: "https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg",
-            isCard: !0,
-            isShow: !1,
-            remark: "",
-            contentId: null,
-            contentStatus: null,
+            themeList: [{
+              id: 1,
+              nickName: "李一番",
+              create_time: "2020-01-09 14:02:09",
+              imgUrl: "https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg",
+              title: "那些年很很冒险的梦"
+            }, {
+              id: 2,
+              nickName: "张八万",
+              create_time: "2020-01-09 14:02:09",
+              imgUrl: "https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg",
+              title: "十八岁的天空"
+            }],
             contentList: [{
               id: 1,
               nickName: "张一三",
@@ -3098,73 +3498,74 @@ define('pages/todo/index.js',function(require, module, exports, window, document
           tabSelect: function tabSelect(t) {
             this.TabCur = t.currentTarget.dataset.id, this.scrollLeft = 60 * (t.currentTarget.dataset.id - 1);
           },
-          searchContent: function searchContent(n) {
+          searchContent: function searchContent(e) {
             t.showToast({
-              title: n.target.value,
+              title: e.target.value,
               icon: "none"
             });
-          },
-          isPass: function isPass(t, n) {
-            this.isShow = !0, this.contentStatus = n, this.contentId = t.id, console.log(i(this.contentId, " at pages\\todo\\index.vue:160"));
-          },
-          hideModal: function hideModal() {
-            this.isShow = !1;
-          },
-          writeRemark: function writeRemark(t) {
-            this.remark = t.detail.value;
-          },
-          submitIsPass: function submitIsPass() {
-            this.isShow = !1;
           }
         }
       };
-      n.default = e;
-    }).call(this, i("6e42")["default"], i("0de9")["default"]);
+
+      e.default = o;
+    }).call(this, n("6e42")["default"]);
   },
-  7822: function _(t, n, i) {
+  7822: function _(t, e, n) {
     "use strict";
 
-    i.r(n);
-    var e = i("2cf2"),
-        a = i("a4d5");
+    n.r(e);
+    var i = n("cb78"),
+        a = n("a4d5");
 
     for (var o in a) {
       "default" !== o && function (t) {
-        i.d(n, t, function () {
+        n.d(e, t, function () {
           return a[t];
         });
       }(o);
     }
 
-    i("c22d");
+    n("3681");
     var s,
-        u = i("f0c5"),
-        c = Object(u["a"])(a["default"], e["b"], e["c"], !1, null, "416ddc7e", null, !1, e["a"], s);
-    n["default"] = c.exports;
+        c = n("f0c5"),
+        u = Object(c["a"])(a["default"], i["b"], i["c"], !1, null, "307c2746", null, !1, i["a"], s);
+    e["default"] = u.exports;
   },
-  a4d5: function a4d5(t, n, i) {
+  a4d5: function a4d5(t, e, n) {
     "use strict";
 
-    i.r(n);
-    var e = i("479b"),
-        a = i.n(e);
+    n.r(e);
+    var i = n("479b"),
+        a = n.n(i);
 
-    for (var o in e) {
+    for (var o in i) {
       "default" !== o && function (t) {
-        i.d(n, t, function () {
-          return e[t];
+        n.d(e, t, function () {
+          return i[t];
         });
       }(o);
     }
 
-    n["default"] = a.a;
+    e["default"] = a.a;
   },
-  c22d: function c22d(t, n, i) {
+  cb78: function cb78(t, e, n) {
     "use strict";
 
-    var e = i("250f"),
-        a = i.n(e);
-    a.a;
+    var i,
+        a = function a() {
+      var t = this,
+          e = t.$createElement;
+      t._self._c;
+    },
+        o = [];
+
+    n.d(e, "b", function () {
+      return a;
+    }), n.d(e, "c", function () {
+      return o;
+    }), n.d(e, "a", function () {
+      return i;
+    });
   }
 }]);
 ;
@@ -3175,23 +3576,140 @@ define('pages/todo/index.js',function(require, module, exports, window, document
 }, [['pages/todo/index-create-component']]]);
 });
 require('pages/todo/index.js');
+__wxRoute = 'pages/todo/themeItem';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/todo/themeItem.js';
+
+define('pages/todo/themeItem.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";
+
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/todo/themeItem"], {
+  "052a": function a(t, e, n) {},
+  "579c": function c(t, e, n) {
+    "use strict";
+
+    n.r(e);
+    var u = n("d036"),
+        i = n("a00f");
+
+    for (var a in i) {
+      "default" !== a && function (t) {
+        n.d(e, t, function () {
+          return i[t];
+        });
+      }(a);
+    }
+
+    n("bee8");
+    var o,
+        s = n("f0c5"),
+        r = Object(s["a"])(i["default"], u["b"], u["c"], !1, null, "03b3b185", null, !1, u["a"], o);
+    e["default"] = r.exports;
+  },
+  a00f: function a00f(t, e, n) {
+    "use strict";
+
+    n.r(e);
+    var u = n("ee51"),
+        i = n.n(u);
+
+    for (var a in u) {
+      "default" !== a && function (t) {
+        n.d(e, t, function () {
+          return u[t];
+        });
+      }(a);
+    }
+
+    e["default"] = i.a;
+  },
+  bee8: function bee8(t, e, n) {
+    "use strict";
+
+    var u = n("052a"),
+        i = n.n(u);
+    i.a;
+  },
+  d036: function d036(t, e, n) {
+    "use strict";
+
+    var u,
+        i = function i() {
+      var t = this,
+          e = t.$createElement;
+      t._self._c;
+      t._isMounted || (t.e0 = function (e) {
+        t.isShow = !1;
+      });
+    },
+        a = [];
+
+    n.d(e, "b", function () {
+      return i;
+    }), n.d(e, "c", function () {
+      return a;
+    }), n.d(e, "a", function () {
+      return u;
+    });
+  },
+  ee51: function ee51(t, e, n) {
+    "use strict";
+
+    Object.defineProperty(e, "__esModule", {
+      value: !0
+    }), e.default = void 0;
+    var u = {
+      props: ["themeList"],
+      data: function data() {
+        return {
+          isShow: !1,
+          remark: "",
+          themeId: null,
+          themeStatus: null,
+          audioPlay: !1
+        };
+      },
+      methods: {
+        isPass: function isPass(t, e) {
+          this.isShow = !0, this.themeStatus = e, this.themeId = t.id;
+        },
+        hideModal: function hideModal() {
+          this.isShow = !1;
+        },
+        writeRemark: function writeRemark(t) {
+          this.remark = t.detail.value;
+        },
+        submitIsPass: function submitIsPass() {
+          this.isShow = !1;
+        }
+      }
+    };
+    e.default = u;
+  }
+}]);
+;
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push(['pages/todo/themeItem-create-component', {
+  'pages/todo/themeItem-create-component': function pagesTodoThemeItemCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('6e42')['createComponent'](__webpack_require__("579c"));
+  }
+}, [['pages/todo/themeItem-create-component']]]);
+});
+require('pages/todo/themeItem.js');
 
 __wxRoute = 'pages/index/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/index.js';
 
 define('pages/index/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/index"],{"26c1":function(t,n,e){"use strict";(function(t){e("fbf1"),e("921b");u(e("66fd"));var n=u(e("2d2b"));function u(t){return t&&t.__esModule?t:{default:t}}t(n.default)}).call(this,e("6e42")["createPage"])},"2d2b":function(t,n,e){"use strict";e.r(n);var u=e("bcdf"),c=e("4104");for(var r in c)"default"!==r&&function(t){e.d(n,t,function(){return c[t]})}(r);var a,f=e("f0c5"),o=Object(f["a"])(c["default"],u["b"],u["c"],!1,null,null,null,!1,u["a"],a);n["default"]=o.exports},"3c1c":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u={data:function(){return{PageCur:"todo"}},methods:{NavChange:function(t){this.PageCur=t.currentTarget.dataset.cur}}};n.default=u},4104:function(t,n,e){"use strict";e.r(n);var u=e("3c1c"),c=e.n(u);for(var r in u)"default"!==r&&function(t){e.d(n,t,function(){return u[t]})}(r);n["default"]=c.a},bcdf:function(t,n,e){"use strict";var u,c=function(){var t=this,n=t.$createElement;t._self._c},r=[];e.d(n,"b",function(){return c}),e.d(n,"c",function(){return r}),e.d(n,"a",function(){return u})}},[["26c1","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/index"],{"26c1":function(t,n,e){"use strict";(function(t){e("fbf1"),e("921b");u(e("66fd"));var n=u(e("2d2b"));function u(t){return t&&t.__esModule?t:{default:t}}t(n.default)}).call(this,e("6e42")["createPage"])},"2d2b":function(t,n,e){"use strict";e.r(n);var u=e("6284"),c=e("4104");for(var r in c)"default"!==r&&function(t){e.d(n,t,function(){return c[t]})}(r);var a,o=e("f0c5"),f=Object(o["a"])(c["default"],u["b"],u["c"],!1,null,"3cc65934",null,!1,u["a"],a);n["default"]=f.exports},"3c1c":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u={data:function(){return{PageCur:"todo"}},methods:{NavChange:function(t){this.PageCur=t.currentTarget.dataset.cur}}};n.default=u},4104:function(t,n,e){"use strict";e.r(n);var u=e("3c1c"),c=e.n(u);for(var r in u)"default"!==r&&function(t){e.d(n,t,function(){return u[t]})}(r);n["default"]=c.a},6284:function(t,n,e){"use strict";var u,c=function(){var t=this,n=t.$createElement;t._self._c},r=[];e.d(n,"b",function(){return c}),e.d(n,"c",function(){return r}),e.d(n,"a",function(){return u})}},[["26c1","common/runtime","common/vendor"]]]);
 });
 require('pages/index/index.js');
 __wxRoute = 'pages/my/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/index.js';
 
 define('pages/my/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/index"],{5127:function(n,t,e){"use strict";var u=e("e7d3"),a=e.n(u);a.a},7642:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var u={data:function(){return{avatar:"https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg",name:"xxx"}}};t.default=u},"85c4":function(n,t,e){"use strict";var u,a=function(){var n=this,t=n.$createElement;n._self._c},f=[];e.d(t,"b",function(){return a}),e.d(t,"c",function(){return f}),e.d(t,"a",function(){return u})},"9aaf":function(n,t,e){"use strict";(function(n){e("fbf1"),e("921b");u(e("66fd"));var t=u(e("fff9"));function u(n){return n&&n.__esModule?n:{default:n}}n(t.default)}).call(this,e("6e42")["createPage"])},b017:function(n,t,e){"use strict";e.r(t);var u=e("7642"),a=e.n(u);for(var f in u)"default"!==f&&function(n){e.d(t,n,function(){return u[n]})}(f);t["default"]=a.a},e7d3:function(n,t,e){},fff9:function(n,t,e){"use strict";e.r(t);var u=e("85c4"),a=e("b017");for(var f in a)"default"!==f&&function(n){e.d(t,n,function(){return a[n]})}(f);e("5127");var r,c=e("f0c5"),o=Object(c["a"])(a["default"],u["b"],u["c"],!1,null,"2d0f7de6",null,!1,u["a"],r);t["default"]=o.exports}},[["9aaf","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/index"],{2825:function(n,t,e){"use strict";var u=e("7725"),a=e.n(u);a.a},"5ede":function(n,t,e){"use strict";var u,a=function(){var n=this,t=n.$createElement;n._self._c},f=[];e.d(t,"b",function(){return a}),e.d(t,"c",function(){return f}),e.d(t,"a",function(){return u})},7642:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var u={data:function(){return{avatar:"https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg",name:"梦涛"}}};t.default=u},7725:function(n,t,e){},"9aaf":function(n,t,e){"use strict";(function(n){e("fbf1"),e("921b");u(e("66fd"));var t=u(e("fff9"));function u(n){return n&&n.__esModule?n:{default:n}}n(t.default)}).call(this,e("6e42")["createPage"])},b017:function(n,t,e){"use strict";e.r(t);var u=e("7642"),a=e.n(u);for(var f in u)"default"!==f&&function(n){e.d(t,n,function(){return u[n]})}(f);t["default"]=a.a},fff9:function(n,t,e){"use strict";e.r(t);var u=e("5ede"),a=e("b017");for(var f in a)"default"!==f&&function(n){e.d(t,n,function(){return a[n]})}(f);e("2825");var r,c=e("f0c5"),o=Object(c["a"])(a["default"],u["b"],u["c"],!1,null,"060bc187",null,!1,u["a"],r);t["default"]=o.exports}},[["9aaf","common/runtime","common/vendor"]]]);
 });
 require('pages/my/index.js');
 __wxRoute = 'pages/data/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/data/index.js';
 
 define('pages/data/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/data/index"],{"14ab":function(t,e,n){"use strict";var u,a=function(){var t=this,e=t.$createElement;t._self._c},r=[];n.d(e,"b",function(){return a}),n.d(e,"c",function(){return r}),n.d(e,"a",function(){return u})},"169e":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u={data:function(){return{}},methods:{}};e.default=u},"2ce7":function(t,e,n){"use strict";var u=n("8df2"),a=n.n(u);a.a},3376:function(t,e,n){"use strict";n.r(e);var u=n("169e"),a=n.n(u);for(var r in u)"default"!==r&&function(t){n.d(e,t,function(){return u[t]})}(r);e["default"]=a.a},"83ee":function(t,e,n){"use strict";n.r(e);var u=n("14ab"),a=n("3376");for(var r in a)"default"!==r&&function(t){n.d(e,t,function(){return a[t]})}(r);n("2ce7");var c,f=n("f0c5"),o=Object(f["a"])(a["default"],u["b"],u["c"],!1,null,"65e8d3a6",null,!1,u["a"],c);e["default"]=o.exports},"8df2":function(t,e,n){},bf76:function(t,e,n){"use strict";(function(t){n("fbf1"),n("921b");u(n("66fd"));var e=u(n("83ee"));function u(t){return t&&t.__esModule?t:{default:t}}t(e.default)}).call(this,n("6e42")["createPage"])}},[["bf76","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/data/index"],{"169e":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u={data:function(){return{}},methods:{}};n.default=u},3376:function(t,n,e){"use strict";e.r(n);var u=e("169e"),f=e.n(u);for(var r in u)"default"!==r&&function(t){e.d(n,t,function(){return u[t]})}(r);n["default"]=f.a},"83ee":function(t,n,e){"use strict";e.r(n);var u=e("f6fd"),f=e("3376");for(var r in f)"default"!==r&&function(t){e.d(n,t,function(){return f[t]})}(r);e("9bb0");var a,c=e("f0c5"),o=Object(c["a"])(f["default"],u["b"],u["c"],!1,null,"d774aa20",null,!1,u["a"],a);n["default"]=o.exports},"9bb0":function(t,n,e){"use strict";var u=e("e0ff"),f=e.n(u);f.a},bf76:function(t,n,e){"use strict";(function(t){e("fbf1"),e("921b");u(e("66fd"));var n=u(e("83ee"));function u(t){return t&&t.__esModule?t:{default:t}}t(n.default)}).call(this,e("6e42")["createPage"])},e0ff:function(t,n,e){},f6fd:function(t,n,e){"use strict";var u,f=function(){var t=this,n=t.$createElement;t._self._c},r=[];e.d(n,"b",function(){return f}),e.d(n,"c",function(){return r}),e.d(n,"a",function(){return u})}},[["bf76","common/runtime","common/vendor"]]]);
 });
 require('pages/data/index.js');
 __wxRoute = 'pages/basics/layout';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/basics/layout.js';

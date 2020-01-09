@@ -83,11 +83,6 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  if (!_vm._isMounted) {
-    _vm.e0 = function($event) {
-      _vm.isShow = false
-    }
-  }
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -121,98 +116,36 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var contentItem = function contentItem() {return __webpack_require__.e(/*! import() | pages/todo/contentItem */ "pages/todo/contentItem").then(__webpack_require__.bind(null, /*! ./contentItem.vue */ 246));};var themeItem = function themeItem() {return __webpack_require__.e(/*! import() | pages/todo/themeItem */ "pages/todo/themeItem").then(__webpack_require__.bind(null, /*! ./themeItem.vue */ 253));};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
+  components: { contentItem: contentItem, themeItem: themeItem },
   data: function data() {
     return {
       CustomBar: this.CustomBar,
@@ -220,11 +153,10 @@ var _default =
       tabNav: ['内容', '主题'],
       searchValue: '',
       imgUrl: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg',
-      isCard: true,
-      isShow: false,
-      remark: '',
-      contentId: null,
-      contentStatus: null,
+      themeList: [
+      { id: 1, nickName: '李一番', create_time: '2020-01-09 14:02:09', imgUrl: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg', title: '那些年很很冒险的梦' },
+      { id: 2, nickName: '张八万', create_time: '2020-01-09 14:02:09', imgUrl: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg', title: '十八岁的天空' }],
+
       contentList: [
       {
         id: 1,
@@ -275,25 +207,6 @@ var _default =
         title: e.target.value,
         icon: 'none' });
 
-    },
-    isPass: function isPass(item, status) {
-      this.isShow = true;
-      this.contentStatus = status;
-      this.contentId = item.id;
-      console.log(this.contentId);
-      // uni.showToast({
-      // 	title: status == 1 ? '通过' : '不通过',
-      // 	icon: 'none'
-      // })
-    },
-    hideModal: function hideModal() {
-      this.isShow = false;
-    },
-    writeRemark: function writeRemark(e) {
-      this.remark = e.detail.value;
-    },
-    submitIsPass: function submitIsPass() {
-      this.isShow = false;
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 

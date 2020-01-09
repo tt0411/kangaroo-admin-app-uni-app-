@@ -1,0 +1,50 @@
+.options.data-v-03b3b185 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: -20rpx;
+  margin-top: 10rpx;
+}
+.options .cu-btn.data-v-03b3b185 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+}
+.modalBox.data-v-03b3b185 {
+  margin: 0 20rpx 20rpx 20rpx;
+  text-align: left;
+}
+.modalBox .textArea.data-v-03b3b185 {
+    margin-top: 10rpx;
+    padding: 20rpx;
+    font-size: 20rpx;
+    height: 160rpx;
+    border: 1px solid #EEEEEE;
+}
+.modalBox .modalOptions.data-v-03b3b185 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    margin-top: 30rpx;
+}
+.modalBox .modalOptions .cu-btn.data-v-03b3b185 {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+              flex: 1;
+      margin: 0 30rpx;
+}
+

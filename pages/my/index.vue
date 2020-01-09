@@ -14,7 +14,7 @@
 		data() {
 			return {
 				avatar: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg',
-				name: 'xxx'
+				name: '梦涛'
 			}
 		}
 	}

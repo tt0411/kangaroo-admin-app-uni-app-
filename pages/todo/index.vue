@@ -2,94 +2,32 @@
 	<view>
 	 <scroll-view scroll-y class="page">
 		<cu-custom bgColor="bg-gradual-blue"><block slot="content">待审核</block></cu-custom>
-		<view class="zw"></view>
 	     <view class="cu-bar bg-white search fixed" :style="[{top:CustomBar + 'px'}]">
 			<view class="search-form round">
 				<text class="cuIcon-search"></text>
 				<input type="text" placeholder="输入搜索内容" v-model="searchValue" confirm-type="search" @confirm="searchContent"/>
 			</view>
 		</view>
-		 <scroll-view scroll-x class="bg-white nav text-center fixed" :style="[{top:2*CustomBar + 'px'}]">
+		 <scroll-view scroll-x class="bg-white nav text-center fixed" :style="[{top: CustomBar+40 + 'px'}]">
 		 	<view class="cu-item" :class="index==TabCur?'text-blue cur':''" v-for="(item,index) in tabNav" :key="index" @tap="tabSelect"
 		 	 :data-id="index">{{tabNav[index]}}</view>
 		 </scroll-view>
-		 <view v-if="TabCur === 0" style="margin-top: 80px;">
-		 	<view class="cu-card dynamic" v-for="(item, index) in contentList" :key="index">
-		 		<view class="cu-item shadow">
-		 			<view class="cu-list menu-avatar">
-		 				<view class="cu-item">
-		 					<view class="cu-avatar round lg" :style="{ 'backgroundImage': 'url(' + item.imgUrl + ')'}"></view>
-		 					<view class="content flex-sub">
-		 						<view>{{item.nickName}}</view>
-		 						<view class="text-gray text-sm flex justify-between">
-		 						 申请时间：{{item.create_time}}
-		 						</view>
-		 					</view>
-		 				</view>
-		 			</view>
-		 			<view style="padding: 10rpx 20rpx">
-		 				{{item.context}}
-		 			</view>
-						<!-- <view v-if="item.img.length === 1">
-							<view class="grid flex-sub padding-lr col-1">
-								<view class="bg-img only-img" :style="{ 'backgroundImage': 'url(' + item.img + ')'}">
-								</view>
-							</view>
-						</view>
-						<view v-if="item.img.length === 2">
-							<view class="grid flex-sub padding-lr col-2 grid-square">
-								<view class="bg-img" :style="{ 'backgroundImage': 'url(' + item + ')'}"
-								 v-for="(item,index) in item.img" :key="index">
-								</view>
-							</view>
-						</view>-->
-						<view v-if="item.img">
-							<view class="grid flex-sub padding-lr col-3 grid-square">
-								<view class="bg-img" :style="{ 'backgroundImage': 'url(' + item1 + ')'}"
-								 v-for="(item1,index1) in item.img" :key="index1">
-								</view>
-							</view>
-						</view> 
-						  <view v-if="item.video">
-							  <video style="width: 93.6%;margin-left: 3.2%;"  id="myVideo" :src="item.video" controls></video>
-						 </view>
-						 <view v-if="item.audio" class="page-section page-section-gap" style="text-align: center;">
-							 <audio style="text-align: left" :src="item.audio" :poster="imgUrl"  controls></audio>
-						 </view>
-		 			<view class="options">
-						<button class="cu-btn bg-red margin-tb-sm" @click="isPass(item, status = 0)">不通过</button>
-		 				<button class="cu-btn bg-blue margin-tb-sm" @click="isPass(item, status = 1)">通过</button>
-		 			</view>
-		 		</view>
-		 	 </view>
+		 <view v-if="TabCur == 0" style="margin-top: 80px;">
+		 	  <content-item :contentList="contentList"></content-item>
 		 </view>
-		 <view class="cu-modal bottom-modal" :class="isShow ?'show':''">
-		 	<view class="cu-dialog">
-		 		<view class="cu-bar bg-white justify-end">
-					<view class="content">审核意见</view>
-		 			<view class="action" @tap="hideModal">
-		 				<text class="cuIcon-close text-red"></text>
-		 			</view>
-		 		</view>
-		 		<view class="modalBox">
-		 			<view class="title">处理备注(非必填)</view>
-					<view class="textArea">
-						<textarea  @blur="writeRemark"></textarea>
-					</view>
-					<view class="modalOptions">
-					<button class="cu-btn bg-gray margin-tb-sm" @click="isShow = false">取消</button>
-					<button class="cu-btn bg-blue margin-tb-sm" @click="submitIsPass">确定</button>
-				</view>
-		 	</view>
-		 	</view>
-		 </view>
+		  <view v-if="TabCur == 1" style="margin-top: 80px;">
+			  <theme-item :themeList="themeList"></theme-item>
+			</view>
 		<view class="cu-tabbar-height"></view>
 	</scroll-view>
   </view>
 </template>
 
 <script>
+import contentItem from './contentItem.vue'
+import themeItem from './themeItem.vue'
 	export default {
+		components: { contentItem, themeItem },
 		data() {
 			return {
 				CustomBar: this.CustomBar,
@@ -97,11 +35,10 @@
 				tabNav: ['内容', '主题'],
 				searchValue: '',
 				imgUrl: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg',
-				isCard: true,
-				isShow: false,
-				remark: '',
-				contentId: null,
-				contentStatus: null,
+				themeList: [
+					{id: 1, nickName: '李一番', create_time: '2020-01-09 14:02:09', imgUrl: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg', title: '那些年很很冒险的梦'},
+					{id: 2, nickName: '张八万', create_time: '2020-01-09 14:02:09', imgUrl: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg', title: '十八岁的天空'},
+				],
 				contentList: [
 					{ 
 					 id: 1, 
@@ -153,25 +90,6 @@
 					icon: 'none'
                 })
 			},
-			isPass(item,status) {
-				this.isShow = true;
-				this.contentStatus = status;
-				this.contentId = item.id;
-				console.log(this.contentId)
-				// uni.showToast({
-				// 	title: status == 1 ? '通过' : '不通过',
-				// 	icon: 'none'
-				// })
-			},
-			hideModal() {
-				this.isShow = false;
-			},
-			writeRemark(e) {
-				this.remark = e.detail.value;
-			},
-			submitIsPass() {
-				this.isShow = false;
-			}
 		}
 	}
 </script>
@@ -183,37 +101,6 @@
 			width: 100%;
 			height: 10rpx;
 			background-color: #F5F5F5;
-		}
-		.options {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			margin-bottom: -20rpx;
-			margin-top: 10rpx;
-			.cu-btn {
-				flex: 1;
-			}
-		}
-		.modalBox {
-			margin: 0 20rpx 20rpx 20rpx;
-			text-align: left;
-			.textArea {
-				margin-top: 10rpx;
-				padding: 20rpx;
-				font-size: 20rpx;
-				height: 160rpx;
-				border: 1px solid #EEEEEE;
-			}
-			.modalOptions {
-			  display: flex;
-			  flex-direction: row;
-			  justify-content: space-between;
-			  margin-top: 30rpx;
-			  .cu-btn {
-			  	flex: 1;
-				margin: 0 30rpx;
-			  }	
-			}
 		}
 	}
 	

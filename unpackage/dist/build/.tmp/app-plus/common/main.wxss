@@ -4683,15 +4683,15 @@ scroll-view.cu-steps .cu-item {
 }
 }
 
-.bg.data-v-2d0f7de6 {
+.bg.data-v-060bc187 {
   position: relative;
 }
-.img.data-v-2d0f7de6 {
+.img.data-v-060bc187 {
   position: absolute;
   top: 150rpx;
   left: calc(50% - 30px);
 }
-.name.data-v-2d0f7de6 {
+.name.data-v-060bc187 {
   position: absolute;
   top: 150px;
   color: blue;
@@ -4700,10 +4700,10 @@ scroll-view.cu-steps .cu-item {
   font-weight: 600;
 }
 
-.page.data-v-65e8d3a6 {
+.page.data-v-d774aa20 {
   height: 100vh;
 }
-.page .zw.data-v-65e8d3a6 {
+.page .zw.data-v-d774aa20 {
     width: 100%;
     height: 30rpx;
     background-color: #F5F5F5;
