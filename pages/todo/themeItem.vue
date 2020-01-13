@@ -14,7 +14,7 @@
 				</view>
 			</view>
 			<view style="padding: 10upx 20upx;text-align: center;font-size: 32upx;">
-				{{item.title}}
+				{{item.name}}
 			</view>
 			<view class="options">
 				<button class="cu-btn bg-red margin-tb-sm" @click="unPass(item)">不通过</button>
@@ -46,6 +46,7 @@
 </template>
 
 <script>
+  import {BASEURL} from '../../untils/index.js'
    export default {
 		props: ['themeList'],
 		data() {
@@ -62,10 +63,12 @@
 				this.isShow = true;
 				this.themeStatus = status;
 				this.themeId = item.id;
+				this.themeStatus = 1;
 			},
 			unPass(item) {
 				this.isShow = true;
 				this.contentId = item.id;
+				this.themeStatus = 2;
 			},
 			hideModal() {
 				this.isShow = false;
@@ -74,7 +77,28 @@
 				this.remark = e.detail.value;
 			},
 			submitIsPass() {
-				this.isShow = false;
+				let flag = this.themeStatus;
+				let id = this.themeId;
+				let remark = this.remark;
+				uni.request({
+					url: `${BASEURL}/theme/checkTheme?flag=${flag}&id=${id}&remark=${remark}`,
+					success: res => {
+						if(res.data.code === 200) {
+						 uni.showToast({
+							title: '审核成功',
+						 })
+						 this.$emit('refreshTheme')
+						}else {
+							uni.showToast({
+								title: '审核失败',
+								icon: 'none'
+							})
+						}	
+					},
+					complete: () => {
+						this.isShow = false;
+					}
+				})
 			}
 		}
 	}

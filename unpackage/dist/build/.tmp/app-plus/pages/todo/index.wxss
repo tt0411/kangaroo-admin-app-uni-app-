@@ -1,9 +1,0 @@
-.page.data-v-307c2746 {
-  height: 100vh;
-}
-.page .zw.data-v-307c2746 {
-    width: 100%;
-    height: 10rpx;
-    background-color: #F5F5F5;
-}
-

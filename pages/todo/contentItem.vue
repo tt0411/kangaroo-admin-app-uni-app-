@@ -60,6 +60,7 @@
 
 <script>
 	import luchAudio from '../../components/luch-audio/luch-audio.vue'
+	import {BASEURL} from '../../untils/index.js'
 	export default {
 		props: ['contentList'],
 		components: { luchAudio },
@@ -76,10 +77,12 @@
 			isPass(item) {
 				this.isShow = true;
 				this.contentId = item.id;
+				this.contentStatus = 1;
 			},
 			unPass(item) {
 				this.isShow = true;
 				this.contentId = item.id;
+				this.contentStatus = 2;
 			},
 			hideModal() {
 				this.isShow = false;
@@ -87,8 +90,29 @@
 			writeRemark(e) {
 				this.remark = e.detail.value;
 			},
-			submitIsPass() {
-				this.isShow = false;
+			submitIsPass() {	
+				let flag = this.contentStatus;
+				let id = this.contentId;
+				let remark = this.remark;
+				uni.request({
+					url: `${BASEURL}/content/isStopContent?flag=${flag}&id=${id}&remark=${remark}`,
+					success: res => {
+						if(res.data.code === 200) {
+						 uni.showToast({
+							title: '审核成功',
+						 })
+						 this.$emit('refreshContent')
+						}else {
+							uni.showToast({
+								title: '审核失败',
+								icon: 'none'
+							})
+						}	
+					},
+					complete: () => {
+						this.isShow = false;
+					}
+				})
 			},
 		}
 	}

@@ -1,1 +1,0 @@
-<view class="page data-v-976c6cde"><view class="bg data-v-976c6cde"><image class="response data-v-976c6cde" src="../../static/spring.jpeg" mode="widthFix"></image></view><view class="img data-v-976c6cde"><image style="width:60px;height:60px;border-radius:30px;" src="{{avatar}}" class="data-v-976c6cde"></image></view><view class="name data-v-976c6cde">{{name}}</view></view>

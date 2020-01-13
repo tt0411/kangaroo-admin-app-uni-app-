@@ -3,15 +3,35 @@
 	 <scroll-view scroll-y class="page">
 		<cu-custom bgColor="bg-gradual-blue"><block slot="content">数据分析</block></cu-custom>
 	      <view class="qiun-columns" :style="[{top: CustomBar+40 + 'px'}]">
-	      		<view class="qiun-bg-white qiun-title-bar qiun-common-mt" >
+	      		<!-- <view class="qiun-bg-white qiun-title-bar qiun-common-mt" >
 	      			<view class="qiun-title-dot-light">饼图右侧图例</view>
 	      		</view>
 	      		<view class="qiun-charts qiun-rows">
 	      			<canvas canvas-id="canvasPie" id="canvasPie" class="charts-pie" @touchstart="touchPie"></canvas>
-				</view>
+				</view> -->
 	      	</view>
 		 </scroll-view>
-		<view class="cu-tabbar-height"></view>
+		<view class="cu-bar tabbar bg-white shadow foot">
+			<view class="action" @click="NavChange" data-cur="todo">
+				<view class='cuIcon-cu-image'>
+					<text :class="PageCur==='todo'?'lg cuIcon-edit text-blue':'lg cuIcon-edit text-gray'"></text>
+					<view class="cu-tag badge">99</view>
+				</view>
+				<view :class="PageCur==='todo'?'text-blue':'text-gray'">待办</view>
+			</view>
+			<view class="action" @click="NavChange" data-cur="data">
+				<view class='cuIcon-cu-image'>
+					<text :class="PageCur==='data'?'lg cuIcon-rank text-blue':'lg cuIcon-rank text-gray'"></text>
+				</view>
+				<view :class="PageCur==='data'?'text-blue':'text-gray'">数据</view>
+			</view>
+			<view class="action" @click="NavChange" data-cur="my">
+				<view class='cuIcon-cu-image'>
+					<text :class="PageCur==='my'?'lg cuIcon-my text-blue':'lg cuIcon-my text-gray'"></text>
+				</view>
+				<view :class="PageCur==='my'?'text-blue':'text-gray'">我的</view>
+			</view>
+		</view>
 	</scroll-view>
   </view>
 </template>
@@ -24,6 +44,7 @@
 	export default {
 		data() {
 			return {
+				PageCur: 'data',
 				CustomBar: this.CustomBar,
 				cWidth:'',
 				cHeight:'',
@@ -39,26 +60,30 @@
 			this.getServerData();
 		},
 		methods: {
+			NavChange: function(e) {
+				this.PageCur = e.currentTarget.dataset.cur
+				let page = e.currentTarget.dataset.cur
+				uni.reLaunch({
+					url: `../${page}/index`
+				});
+			},
 			getServerData(){
-			// uni.request({
-			// 	url: 'https://www.ucharts.cn/data.json',
-			// 	data:{
-			// 	},
-			// 	success: function(res) {
-			// 		console.log(res.data.data)
-			// 		let Pie={series:[]};
+			uni.request({
+				url: 'https://www.ucharts.cn/data.json',
+				data:{
+				},
+				success: function(res) {
+					console.log(res.data.data)
+					let Pie={series:[]};
 					
-			// 		//这里我后台返回的是数组，所以用等于，如果您后台返回的是单条数据，需要push进去
-			// 		Pie.series=res.data.data.Pie.series;
-			// 		_self.showPie("canvasPie",Pie);
-			// 	},
-			// 	fail: () => {
-			// 		_self.tips="网络错误，小程序端请检查合法域名";
-			// 	},
-			// })
-			let Pie={series:[]};
-			Pie.series = bingData.Pie.series;
-			_self.showPie("canvasPie",Pie);
+					//这里我后台返回的是数组，所以用等于，如果您后台返回的是单条数据，需要push进去
+					Pie.series=res.data.data.Pie.series;
+					_self.showPie("canvasPie",Pie);
+				},
+				fail: () => {
+					_self.tips="网络错误，小程序端请检查合法域名";
+				},
+			})
 		 },
 		 showPie(canvasId,chartData){
 			canvaPie=new uCharts({

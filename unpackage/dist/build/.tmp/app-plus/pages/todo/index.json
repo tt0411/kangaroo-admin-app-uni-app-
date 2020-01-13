@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "cu-custom": "/colorui/components/cu-custom",
-    "content-item": "/pages/todo/contentItem",
-    "theme-item": "/pages/todo/themeItem"
-  },
-  "component": true
-}

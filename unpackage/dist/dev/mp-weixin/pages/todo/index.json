@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "content-item": "/pages/todo/contentItem",
-    "theme-item": "/pages/todo/themeItem"
-  },
-  "component": true
-}
