@@ -33,7 +33,6 @@
 </template>
 
 <script>
-	import uCharts from '../../components/u-charts/u-charts.js';
 	import Empty from '../../components/Empty/index.vue'
 	export default {
 		components: { Empty },
