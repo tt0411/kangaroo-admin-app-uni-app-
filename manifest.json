@@ -64,6 +64,11 @@
         "domain" : "",
         "devServer" : {
             "https" : false
+        },
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
         }
     }
 }

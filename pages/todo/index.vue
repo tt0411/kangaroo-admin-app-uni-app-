@@ -10,26 +10,29 @@
 		</view>
 		 <scroll-view scroll-x class="bg-white nav text-center fixed" :style="[{top: CustomBar+40 + 'px'}]">
 		 	<view class="cu-item" :class="index==TabCur?'text-blue cur':''" v-for="(item,index) in tabNav" :key="index" @tap="tabSelect"
-		 	 :data-id="index">{{tabNav[index]}}</view>
+		 	 :data-id="index">{{tabNav[index]}}
+			 <view v-if="index === 0 && contentCount" class='cu-tag round sm bg-red' style="margin-left: 10upx;">{{contentCount}}</view>
+			 <view v-if="index === 1 && themeCount" class='cu-tag round sm bg-red' style="margin-left: 10upx;">{{themeCount}}</view>
+			 </view>
 		 </scroll-view>
 		 <view v-if="TabCur == 0" style="margin-top: 80px;">
 			 <view v-if="contentList.length > 0">
-		 	  <content-item :contentList="contentList" @refreshContent="fetchContentList"></content-item>
+		 	  <content-item :contentList="contentList" @refreshContent="fetchContentList" @refreshCount="fetchCount"></content-item>
 		     </view>
 			 <Empty :type="1" v-else/>
 		 </view>
 		  <view v-if="TabCur == 1" style="margin-top: 80px;">
 			  <view v-if="themeList.length > 0">
-			  <theme-item :themeList="themeList" @refreshTheme="fetchThemeList"></theme-item>
+			  <theme-item :themeList="themeList" @refreshTheme="fetchThemeList" @refreshCount="fetchCount"></theme-item>
 			  </view>
 			  <Empty :type="2" v-else/>
 			</view>
-		<!-- <view class="cu-tabbar-height"></view> -->
+		<view class="cu-tabbar-height"></view>
 		<view class="cu-bar tabbar bg-white shadow foot">
 			<view class="action" @click="NavChange" data-cur="todo">
 				<view class='cuIcon-cu-image'>
 					<text :class="PageCur==='todo'?'lg cuIcon-edit text-blue':'lg cuIcon-edit text-gray'"></text>
-					<view class="cu-tag badge">99</view>
+					<!-- <view class="cu-tag badge"></view> -->
 				</view>
 				<view :class="PageCur==='todo'?'text-blue':'text-gray'">待办</view>
 			</view>
@@ -66,19 +69,31 @@ import { BASEURL } from '../../untils/index.js'
 				searchValue: '',
 				imgUrl: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg',
 				themeList: [],
-				contentList: []
+				contentList: [],
+				themeCount: null,
+				contentCount: null,
+				allCount: null,
 			}
 		},
 		onLoad() {
 			this.fetchContentList();
 			this.fetchThemeList();
+			this.fetchCount();
 		},
 		methods: {
 			fetchContentList() {
+				uni.showLoading({
+				    title: '加载中'
+				});
 				uni.request({
 					url: `${BASEURL}/content/waitContentRoots`,
 					success: (res) => {
-						this.contentList = res.data.list
+						if(res.data.code === 200) {
+						  this.contentList = res.data.list	
+						}
+					},
+					complete: () => {
+						 uni.hideLoading();
 					}
 				})
 			},
@@ -86,7 +101,20 @@ import { BASEURL } from '../../untils/index.js'
 				uni.request({
 					url: `${BASEURL}/theme/waitThemeRoots`,
 					success: (res) => {
-						this.themeList = res.data.list
+						if(res.data.code === 200) {
+							this.themeList = res.data.list
+						}
+					}
+				})
+			},
+			fetchCount() {
+				uni.request({
+					url: `${BASEURL}/content/waitDealCount`,
+					success: (res) => {
+						if(res.data.code === 200) {
+							this.contentCount = res.data.contentCount
+							this.themeCount = res.data.themeCount
+						}
 					}
 				})
 			},
@@ -95,8 +123,9 @@ import { BASEURL } from '../../untils/index.js'
 				this.scrollLeft = (e.currentTarget.dataset.id - 1) * 60
 			},
 			searchContent(e) {
+				console.log(e.target.value)
 				uni.showToast({
-					title: e.target.value,
+					title: '搜索功能暂未开通',
 					icon: 'none'
                 })
 			},

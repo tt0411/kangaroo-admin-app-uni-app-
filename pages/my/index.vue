@@ -1,7 +1,7 @@
 <template>
 	<view class="page">
 		<view class="bg">
-		   <image src="../../static/spring.jpeg" mode="widthFix" class="response"></image>
+		   <image :src="bgImgObj[month]" mode="widthFix" class="response"></image>
 		</view>
 		<view class="img">
 			 <image :src="avatar" style="width: 60px;height: 60px;border-radius: 30px;"></image>
@@ -14,7 +14,7 @@
 				<view class="arrow"><text class="lg text-gray" :class="'cuIcon-roundright'"></text></view>
 			</view> -->
 			<view style="width: 100%; height: 1upx; background-color: #EEEEEE;"></view>
-			<view class="listItem">
+			<view class="listItem" @click="logout">
 				<view class="icon"><text class="lg text-gray" :class="'cuIcon-exit'"></text></view>
 				<view class="text">退出</view>
 				<view class="arrow"><text class="lg text-gray" :class="'cuIcon-roundright'"></text></view>
@@ -24,7 +24,7 @@
 			<view class="action" @click="NavChange" data-cur="todo">
 				<view class='cuIcon-cu-image'>
 					<text :class="PageCur==='todo'?'lg cuIcon-edit text-blue':'lg cuIcon-edit text-gray'"></text>
-					<view class="cu-tag badge">99</view>
+					<!-- <view class="cu-tag badge">99</view> -->
 				</view>
 				<view :class="PageCur==='todo'?'text-blue':'text-gray'">待办</view>
 			</view>
@@ -48,9 +48,30 @@
 		data() {
 			return {
 				PageCur: 'my',
-				avatar: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg',
-				name: '管理员'
+				avatar: '',
+				name: '',
+				bgImgObj: {
+					0: '../../static/spring.jpeg',
+					1: '../../static/spring.jpeg',
+					2: '../../static/spring.jpeg',
+					3: '../../static/summer.jpeg',
+					4: '../../static/summer.jpeg',
+					5: '../../static/summer.jpeg',
+					6: '../../static/atumn.jpeg',
+					7: '../../static/atumn.jpeg',
+					8: '../../static/atumn.jpeg',
+					9: '../../static/winter.jpeg',
+					10: '../../static/winter.jpeg',
+					11: '../../static/winter.jpeg'
+				},
+				month: 0,
 			}
+		},
+		onLoad() {
+			 this.name = uni.getStorageSync('userName') || '管理员';
+			 this.avatar = uni.getStorageSync('img') || 'https://i.loli.net/2020/01/14/S8JRmua6NipjBTr.png';
+			 this.month = new Date().getMonth()
+			  
 		},
 		methods: {
 			NavChange: function(e) {
@@ -58,6 +79,22 @@
 				let page = e.currentTarget.dataset.cur
 				uni.reLaunch({
 				    url: `../${page}/index`
+				});
+			},
+			logout() {
+				uni.showModal({
+				    title: '提示',
+				    content: '是否确定退出',
+				    success: function (res) {
+				        if (res.confirm) {
+				           uni.clearStorageSync()
+						   uni.reLaunch({
+						       url: '../login/index'
+						   });
+				        } else if (res.cancel) {
+				           
+				        }
+				    }
 				});
 			}
 		}
@@ -78,9 +115,9 @@
 		position: absolute;
 		top: 150px;
         color: blue;
-		width: 150upx;
+		width: 400upx;
 		text-align: center;
-		left: calc(50% - 75upx);
+		left: calc(50% - 200upx);
 		font-size: 16px;
 		font-weight: 600;
 		text-shadow: 0 5upx 5upx blue;

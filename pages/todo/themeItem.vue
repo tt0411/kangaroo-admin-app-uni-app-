@@ -88,6 +88,7 @@
 							title: '审核成功',
 						 })
 						 this.$emit('refreshTheme')
+						 this.$emit('refreshCount')
 						}else {
 							uni.showToast({
 								title: '审核失败',

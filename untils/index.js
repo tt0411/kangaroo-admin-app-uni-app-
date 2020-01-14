@@ -359,5 +359,6 @@
 //     "tips": "【开源不易、改造不易、哪(拿)来简单】uCharts将始终坚持开源，为您提供最便捷的高性能图表工具！"
 //   }
 
-export const BASEURL = 'http://175.24.36.114:3002'
-// export const BASEURL = 'http://localhost:3002'
+// export const BASEURL = 'http://175.24.36.114:3002'
+export const BASEURL = 'http://localhost:3002'
+	
