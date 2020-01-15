@@ -1,5 +1,5 @@
 {
-    "name" : "袋鼠空间管理端",
+    "name" : "袋鼠管理端",
     "appid" : "__UNI__3F10382",
     "description" : "",
     "versionName" : "kangaroo-admin-app 0.0.1",
@@ -43,7 +43,10 @@
             "sdkConfigs" : {},
             "icons" : {
                 "android" : {
-                    "hdpi" : ""
+                    "hdpi" : "C:/Users/27266/Desktop/logo.png",
+                    "xhdpi" : "C:/Users/27266/Desktop/logo.png",
+                    "xxhdpi" : "C:/Users/27266/Desktop/logo.png",
+                    "xxxhdpi" : "C:/Users/27266/Desktop/logo.png"
                 }
             }
         }
