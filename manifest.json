@@ -64,7 +64,7 @@
     },
     "h5" : {
         "title" : "袋鼠空间管理端",
-        "domain" : "",
+        "domain" : "www.kangaroo-app.cn:9000",
         "devServer" : {
             "https" : false
         },
