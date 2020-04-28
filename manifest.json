@@ -40,7 +40,9 @@
             },
             "ios" : {},
             /* ios打包配置 */
-            "sdkConfigs" : {},
+            "sdkConfigs" : {
+                "ad" : {}
+            },
             "icons" : {
                 "android" : {
                     "hdpi" : "C:/Users/27266/Desktop/logo.png",
@@ -72,6 +74,9 @@
             "treeShaking" : {
                 "enable" : true
             }
+        },
+        "networkTimeout" : {
+            "request" : 120000 // 自定义配置request请求超时时间为120秒
         }
     }
 }

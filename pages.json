@@ -1,21 +1,32 @@
 {
 	"pages": [
-		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/login/index",
-			"style": {}
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
 		},
 		{
 			"path":"pages/todo/index",
-			"style": {}
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
 		},
 		{
 			"path":"pages/my/index",
-			"style": {}
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
 		},
 		{
 			"path":"pages/data/index",
-			"style": {}
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
 		}
 	],
 	"globalStyle": {
@@ -26,8 +37,31 @@
 		},
 		"navigationBarBackgroundColor": "#0081ff",
 		"navigationBarTitleText": "袋鼠空间管理端",
-		"navigationStyle": "custom",
+		// "navigationStyle": "custom",
 		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+	    "color": "#bfbfbf",
+	    "selectedColor": "#0081ff",
+	    "borderStyle": "white",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/todo/index",
+	        "iconPath": "static/waitDeal.png",
+	        "selectedIconPath": "static/selected-waitDeal.png",
+	        "text": "待审核"
+	    }, {
+	        "pagePath": "pages/data/index",
+	        "iconPath": "static/data.png",
+	        "selectedIconPath": "static/selected-data.png",
+	        "text": "数据"
+	    }, 
+		{
+	        "pagePath": "pages/my/index",
+	        "iconPath": "static/my.png",
+	        "selectedIconPath": "static/selected-my.png",
+	        "text": "我的"
+	    }]
 	},
 	"usingComponts": true,
 		"condition": { //模式配置，仅开发期间生效
@@ -36,8 +70,7 @@
 				"name": "首页", //模式名称
 				"path": "pages/index/index", //启动页面
 				"query": "" //启动参数
-			}
-		]
+			}]
 	}
 
 }

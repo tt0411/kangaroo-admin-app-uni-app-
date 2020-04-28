@@ -4,7 +4,7 @@
 		<view class="cu-item shadow">
 			<view class="cu-list menu-avatar">
 				<view class="cu-item">
-					<view class="cu-avatar round lg" :style="{ 'backgroundImage': 'url(' + item.imgUrl + ')'}"></view>
+					<view class="cu-avatar round lg" :style="{ 'backgroundImage': 'url(' + item.imgUrl + ')'}" @click="previewImg(item.imgUrl)"></view>
 					<view class="content flex-sub">
 						<view>{{item.nickName}}</view>
 						<view class="text-gray text-sm flex justify-between">
@@ -13,13 +13,13 @@
 					</view>
 				</view>
 			</view>
-			<view style="padding: 10upx 20upx;">
+			<view style="padding: 20upx;text-indent: 20upx;min-height: 100upx;">
 				{{item.context}}
 			</view>
 				<view v-if="item.img">
 					<view class="grid flex-sub padding-lr col-3 grid-square">
 						<view class="bg-img" :style="{ 'backgroundImage': 'url(' + item1 + ')'}"
-						 v-for="(item1,index1) in item.img" :key="index1">
+						 v-for="(item1,index1) in item.img" :key="index1" @click="previewImg(item1)">
 						</view>
 					</view>
 				</view> 
@@ -90,6 +90,11 @@
 			writeRemark(e) {
 				this.remark = e.detail.value;
 			},
+			previewImg(img) {
+			 uni.previewImage({
+				 urls: [img]
+			 })
+			},
 			submitIsPass() {	
 				let flag = this.contentStatus;
 				let id = this.contentId;
@@ -126,8 +131,9 @@
 	justify-content: space-between;
 	margin-bottom: -20upx;
 	margin-top: 10upx;
-	.cu-btn {
+	.cu-btn {	
 		flex: 1;
+		margin: 30upx;	
 	}
 }
 .modalBox {

@@ -14,8 +14,8 @@
 	 	</view>
 		<view class="empty" v-if="type === 3">
 				<view class="img">
-					  <image style="width: 200upx;height:200upx;"  :src="emptyList[2]"></image>
-						  <view class="text">功能已关闭</view>
+					  <image style="width: 150upx;height:150upx;margin-bottom: 30upx;"  :src="emptyList[2]"></image>
+						  <view class="text">功能暂未开通</view>
 				</view>
 			</view>
 	</view>
@@ -32,9 +32,9 @@
 		data() {
 			return {
 				emptyList: [
-					'https://i.loli.net/2019/11/08/4F5i1MXdWgUSxet.png',
-					'https://i.loli.net/2019/11/07/IzRsylA7oe2UCjE.png',
-					'https://i.loli.net/2019/11/27/WPizHm1yvClEZdX.png',
+					require('../../static/noContent.png'),
+					require('../../static/noTheme.png'),
+					require('../../static/lock.png')
 				]
 			}
 		}

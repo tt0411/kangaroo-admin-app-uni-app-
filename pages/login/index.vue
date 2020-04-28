@@ -73,6 +73,9 @@
 									icon: 'none'
 								})
 							}
+						},
+						fail: err => {
+							console.log(err)
 						}
 					})
 				}
