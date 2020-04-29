@@ -6,6 +6,9 @@
     "versionCode" : 214,
     "transformPx" : false,
     "app-plus" : {
+        "compatible" : {
+            "ignoreVersion" : true
+        },
         /* 5+App特有相关 */
         "modules" : {},
         /* 模块配置 */
@@ -66,7 +69,7 @@
     },
     "h5" : {
         "title" : "袋鼠空间管理端",
-        "domain" : "www.kangaroo-app.cn:9000",
+        "domain" : "www.kangaroo-app.cn:8002",
         "devServer" : {
             "https" : false
         },
@@ -76,7 +79,7 @@
             }
         },
         "networkTimeout" : {
-            "request" : 120000 // 自定义配置request请求超时时间为120秒
+            "request" : 12000 // 自定义配置request请求超时时间为120秒
         }
     }
 }
