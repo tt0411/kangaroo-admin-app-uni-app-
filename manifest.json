@@ -69,7 +69,7 @@
     },
     "h5" : {
         "title" : "袋鼠空间管理端",
-        "domain" : "www.kangaroo-app.cn:8002",
+        "domain" : "www.kangaroo-app.cn:8003",
         "devServer" : {
             "https" : false
         },

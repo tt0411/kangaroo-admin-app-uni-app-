@@ -18,8 +18,11 @@
 				<input placeholder="请填写账号" @blur="getUser"></input>
 			</view>
 			<view class="cu-form-group">
-				<view class="title"><text class="text-gray cuIcon-attention text"></text></view>
-				<input placeholder="请输入密码" type="password" @blur="getPwd"></input>
+				<view class="title">
+					<text class="text-gray cuIcon-attention text" v-if="isSee" @click="isSee = false"></text>
+					<text class="text-gray cuIcon-attentionforbid text" v-else @click="isSee = true"></text>
+					</view>
+				<input placeholder="请输入密码" :type="isSee ? 'text' : 'password'" @blur="getPwd"></input>
 			</view>
 			<view class="loginBtn">
 			<button class="cu-btn round lg bg-gradual-blue text-white" @click="toLogin">登录</button>
@@ -35,6 +38,7 @@
 			return {
 				user: '',
 				password: '',
+				isSee: false,
 			}
 		},
 		methods: {
